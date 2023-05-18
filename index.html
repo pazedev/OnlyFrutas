@@ -9,34 +9,36 @@
 </head>
 
 <body>
-    <!--LOGO-->
-    <div class="nav-logo">Only<img src="/img/uva logo.png" alt="" class="imglogo">Frutas</div>
-
-    <!--Caixa de Pesquisa-->
-    <div id="divBusca">
-        <input type="text" id="txtBusca" placeholder="Digite aqui o que procura..." />
-        <img src="/img/pngegg.png" id="btnBusca" alt="Buscar" />
-    </div>
-
     <header>
+        <!--LOGO-->
+        <div class="nav-logo">
+            <img src="./Imagens/logo.png" alt="" class="logo da Onlyfrutas">
+        </div>
+
+        <!--Caixa de Pesquisa-->
+        <div id="divBusca">
+            <input type="text" id="txtBusca" placeholder="Digite aqui o que procura..." />
+            <img src="./Imagens/icone-PESQUISA.png" id="btnBusca" alt="icone buscar" />
+        </div>
+
         <!--Menu-->
         <nav class="nav-bar">
             <div class="menu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a href="#">HOME</a>
+                     <a href="./index.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">PRODUTOS</a>
+                        <a href="./produtos.html">PRODUTOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">QUEM SOMOS</a>
+                        <a href="./quemsomos.html">QUEM SOMOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">FAQ</a>
+                        <a href="./faq.html">FAQ</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#">CONTATO</a>
+                        <a href="./contato.html">CONTATO</a>
                     </li>
                 </ul>
             </div>
@@ -49,30 +51,34 @@
         <!--Banner-->
 
         <div class="banner">
-            <img src="/img/frutabanner.png" alt="">
-            <h1 class="apresentaçao">DELIVERY DE FRUTAS!</h1>
-            <p class="paragrafo">Frutas frescas e saborosas diretamente na sua casa com apenas um clique</p>
-            <a class="btn btn-primary btn-lg" href="#">Conheça nossos produtos</a>
+            <div class="fundo-banner">
+                <img src="./Imagens/home/frutabanner.png" alt="frutas variadas e coloridas lado direito">
+                    <h1 class="apresentaçao">DELIVERY DE FRUTAS!</h1>
+                    <p class="paragrafo">Frutas frescas e saborosas diretamente na sua casa com apenas um clique</p>
+                    <a class="btn btn-primary btn-lg" href="./produtos.html">Conheça nossos produtos</a><br>
+                <img src="./Imagens/home/frutabanner.png" alt="frutas variadas e coloridas lado direito">
+            </div>
         </div>
         <!--Banner-->
 
         <!--Cards-->
         <section class="cards">
             <div class="first-card">
-                <img src="/img/uva logo.png" alt="" class="logo-first">
+                <img src="./Imagens/home/uva logo.png" alt="" class="logo uva">
+                <h2>QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAUDÁVEL!</h2>
                 <div class="sobre-empresa">
-                    <a href="#">Clique e saiba mais sobre a empresa</a>
+                    <a href="./quemsomos.html">Clique e saiba mais sobre a empresa</a>
                 </div>
             </div>
             <div class="second-card">
-                <img src="/img/wow.png" alt="" class="logo-second">
+                <img src="./Imagens/home/caminhao.png" alt="" class="logo caminhao">
                 <h2>FRETE GRÁTIS EM COMPRAS ACIMA DE R$100</h2>
                 <div class="frete">
-                    <a href="#">Clique e confira mais informações no nosso FAQ</a>
+                    <a href="./faq.html">Clique e confira mais informações no nosso FAQ</a>
                 </div>
             </div>
             <div class="third-card">
-                <img src="/img/caminhao.png" alt="" class="logo-third">
+                <img src="./Imagens/home/wow.png" alt="" class="logo wow">
                 <h2>QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAÚDAVEL</h2>
                 <div class="QCAS">
                     <a href="#">Clique e confira nossa Política de Entregas</a>
@@ -90,9 +96,41 @@
         <!--Texto do Meio-->
 
         <!--Frutas em Destaque-->
-        <section>
-            <div class="frutas-destaque">
-
+        <section class="destaque">
+            <div id="frutas-destaque" class="frutas-destaque">
+                <div class="titulo-destaque">
+                    <h2>FRUTAS EM DESTAQUE</h2>
+                </div>
+                <DIV class="frutas">
+                    <div class="destaque-foto">
+                        <img src="./Imagens/produtos/banana.png" alt="Banana prata">
+                        <img src="./Imagens/cestinha.png" alt="logo cestinha para compras">
+                    </div>
+                    <div class="destaque-descritivo">
+                        <h3>banana prata - 1kg</h3>
+                        <p>R$ 05,99</p>
+                    </div>
+                </DIV>
+                <DIV class="frutas">
+                    <div class="destaque-foto">
+                        <img src="./Imagens/produtos/maracujá.png" alt="Maracujá">
+                        <img src="./Imagens/cestinha.png" alt="logo cestinha para compras">
+                    </div>
+                    <div class="destaque-descritivo">
+                        <h3>maracujá - 1kg</h3>
+                        <p>R$ 08,99</p>
+                    </div>
+                </DIV>
+                <DIV class="frutas">
+                    <div class="destaque-foto">
+                        <img src="./Imagens/produtos/uva.png" alt="Uva verde com semente">
+                        <img src="./Imagens/cestinha.png" alt="logo cestinha para compras">
+                    </div>
+                    <div class="destaque-descritivo">
+                        <h3>uva verde c/ semente - 500g</h3>
+                        <p>R$ 05,99</p>
+                    </div>
+                </DIV>
             </div>
         </section>
         <!--Frutas em Destaque-->
@@ -101,11 +139,12 @@
 
     <!--Roda-pé-->
     <footer>
-
         <!--LOGO COM ENUNCIADO-->
         <div class="container">
             <div class="footer-enunciado">
-                <div class="foot-logo">Only<img src="/img/uva logo.png" alt="" class="imglogo-footer">Frutas</div>
+                <div class="foot-logo">
+                    <img src="/img/uva logo.png" alt="" class="imglogo-footer">
+                </div>
                 <p>Seu delivery de frutas de Teresina - PI. Frutas secas e saborosas diretamente na sua casa.</p>
             </div>
 
@@ -118,16 +157,16 @@
                 <h5>INSTITUCIONAL</h5>
                 <ul class="institucional-menu">
                     <li class="inst-item">
-                        <a href="#">Produtos</a>
+                        <a href="./produtos.html">Produtos</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">Quem somos</a>
+                        <a href="./quemsomos.html">Quem somos</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">FAQ (Perguntas Frequentes)</a>
+                        <a href="./faq.html">FAQ (Perguntas Frequentes)</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">Contato</a>
+                        <a href="./contato.html">Contato</a>
                     </li>
                     <li class="inst-item">
                         <a href="#">Política de Entrega</a>
@@ -143,13 +182,13 @@
                 <h5>CATEGORIAS</h5>
                 <ul class="categorias-menu">
                     <li class="categ-item">
-                        <a href="#">Promoções</a>
+                        <a href="#frutas-destaque">Promoções</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#">Nacionais</a>
+                        <a href="#frutas-nacionais">Nacionais</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#">Importados</a>
+                        <a href="#frutas-importadas">Importados</a>
                     </li>
                 </ul>
             </div>
