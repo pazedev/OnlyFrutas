@@ -1,0 +1,141 @@
+* {
+    font-family: 'PT Serif', 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0FEDC;
+}
+
+/*LOGO*/
+header {
+    background-color: #E4FBC1;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+/*BARRA DE PESQUISA*/
+
+.search {
+    background-color: #86C02E;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #EBECE9;
+    width: 650px;
+
+    &::placeholder {
+        color: #EBECE9;
+    }
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.nav-bar {
+
+    background-color: #0D8509;
+    height: 50px;
+
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #F0FEDC;
+    font-size: 20px;
+    height: 13px;
+}
+
+li:hover {
+    background-color: #CDF68F;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+a:hover {
+    color: #0D8509;
+}
+
+li {
+    padding: 10px;
+}
+
+/*BANNER*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-left {
+    transform: scaleX(-1);
+    width: 679px;
+    height: 567px;
+    object-fit: cover;
+}
+
+.img-right {
+    width: 679px;
+    height: 567px;
+    object-fit: cover;
+}
+
+.main-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main-content-text h1 {
+    color: #0D8509;
+    font-size: 40px;
+    /*text-align: center;*/
+}
+
+.btn-lg {
+    background-color: #86C02E;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.paragrafo {
+    font-size: 24px;
+}

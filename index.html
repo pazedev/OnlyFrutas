@@ -5,151 +5,133 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/home-style.css">
     <title>Only-Frutas</title>
 </head>
 
 <body>
+
     <header>
-        <div class="nav-topo">
-            <!--LOGO-->
-            <div class="nav-logo">
-                <img src="./Imagens/logo.png" alt="" class="logo da Onlyfrutas">
+
+        <div class="content">
+            <h2>
+                <img src="../Imagens/Home/Vectorlogo.jpg" alt="">
+            </h2>
+            <form id="divBusca">
+                <label for="txtBusca" class="search">
+                    <input type="text" id="txtBusca" placeholder="Digite aqui o que procura..." />
+                    <img src="Imagens/Home/PESQUISA.svg" alt="">
+                </label>
+
+            </form>
+            <div class="buy">
+                <span>
+                    <img src="Imagens/cestinha.png" alt="cestinha">
+                </span>
+                <span>
+                    <img src="Imagens/usuario.png" alt="usuario">
+                </span>
             </div>
-
-            <!--Caixa de Pesquisa-->
-            <div id="busca">
-                <input type="text" id="txtBusca" placeholder="Digite aqui o que procura..." />
-                <img src="./Imagens/icone-PESQUISA.png" id="btnBusca" alt="icone buscar" />
-                <img src="./Imagens/usuario.png" alt="icone usuario" width="25px">
-                <img src="./Imagens/cestinha.png" alt="icone cestinha de compras" width="25px">
-            </div>
-
-
-            <!--Menu-->
-            <nav class="nav-bar">
-                <div class="menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a href="./index.html">HOME</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a href="./quemsomos.html">QUEM SOMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./produtos.html">PRODUTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./faq.html">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./contato.html">CONTATO</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
         </div>
+
+        <!--Menu-->
+        <nav class="nav-bar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">PRODUTOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">QUEM SOMOS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#">CONTATO</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <!--Menu-->
 
-    <main>
+    <main class="banner">
 
         <!--Banner-->
 
-        <div class="banner">
-            <div class="fundo-banner">
-                <img src="./Imagens/home/frutabanner.png" alt="frutas variadas e coloridas lado direito">
-                    <h1 class="apresentaçao">DELIVERY DE FRUTAS!</h1>
-                    <p class="paragrafo">Frutas frescas e saborosas diretamente na sua casa com apenas um clique</p>
-                    <a class="btn btn-primary btn-lg" href="./produtos.html">Conheça nossos produtos</a><br>
-                <img src="./Imagens/home/frutabanner.png" alt="frutas variadas e coloridas lado direito">
+            <img src="./Imagens/Home/frutabanner.png" alt="" class="img-left">
+            <div class="main-content-text">
+                <h1 class="apresentaçao">DELIVERY DE FRUTAS!</h1>
+                <p class="paragrafo">Frutas frescas e saborosas <br/> diretamente na sua casa <br/> com apenas um clique</p>
+                <button class="btn-lg" href="#">Conheça nossos produtos</button>
             </div>
-        </div>
-        <!--Banner-->
-
-        <!--Cards-->
-        <section class="cards">
-            <div class="first-card">
-                <img src="./Imagens/home/uva logo.png" alt="" class="logo uva">
-                <h2>QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAUDÁVEL!</h2>
-                <div class="sobre-empresa">
-                    <a href="./quemsomos.html">Clique e saiba mais sobre a empresa</a>
-                </div>
-            </div>
-            <div class="second-card">
-                <img src="./Imagens/home/caminhao.png" alt="" class="logo caminhao">
-                <h2>FRETE GRÁTIS EM COMPRAS ACIMA DE R$100</h2>
-                <div class="frete">
-                    <a href="./faq.html">Clique e confira mais informações no nosso FAQ</a>
-                </div>
-            </div>
-            <div class="third-card">
-                <img src="./Imagens/home/wow.png" alt="" class="logo wow">
-                <h2>QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAÚDAVEL</h2>
-                <div class="QCAS">
-                    <a href="#">Clique e confira nossa Política de Entregas</a>
-                </div>
-            </div>
-        </section>
-        <!--Cards-->
-
-        <!--Texto do Meio-->
-        <div class="text">
-            <h3>Viva cada estação enquanto elas duram, respire o ar, beba a bebida, saboreie a fruta, e deixe-se levar
-                pela influência de cada uma.</h3>
-            <p> - Henry David Thoreau</p>
-        </div>
-        <!--Texto do Meio-->
-
-        <!--Frutas em Destaque-->
-        <section class="destaque">
-            <div id="frutas-destaque" class="frutas-destaque">
-                <div class="titulo-destaque">
-                    <h2>FRUTAS EM DESTAQUE</h2>
-                </div>
-                <DIV class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/banana.png" alt="Banana prata">
-                        <img src="./Imagens/cestinha.png" alt="logo cestinha para compras">
-                    </div>
-                    <div class="destaque-descritivo">
-                        <h3>banana prata - 1kg</h3>
-                        <p>R$ 05,99</p>
-                    </div>
-                </DIV>
-                <DIV class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/maracujá.png" alt="Maracujá">
-                        <img src="./Imagens/cestinha.png" alt="logo cestinha para compras">
-                    </div>
-                    <div class="destaque-descritivo">
-                        <h3>maracujá - 1kg</h3>
-                        <p>R$ 08,99</p>
-                    </div>
-                </DIV>
-                <DIV class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/uva.png" alt="Uva verde com semente">
-                        <img src="./Imagens/cestinha.png" alt="logo cestinha para compras">
-                    </div>
-                    <div class="destaque-descritivo">
-                        <h3>uva verde c/ semente - 500g</h3>
-                        <p>R$ 05,99</p>
-                    </div>
-                </DIV>
-            </div>
-        </section>
-        <!--Frutas em Destaque-->
-
+            <img src="./Imagens/Home/frutabanner02.png.png" alt="" class="img-right">
     </main>
+
+    <!--Cards-->
+    <section class="cards">
+        <div class="first-card">
+            <img src="/img/uva logo.png" alt="" class="logo-first">
+            <div class="sobre-empresa">
+                <a href="#">Clique e saiba mais sobre a empresa</a>
+            </div>
+        </div>
+        <div class="second-card">
+            <img src="/img/wow.png" alt="" class="logo-second">
+            <h2>FRETE GRÁTIS EM COMPRAS ACIMA DE R$100</h2>
+            <div class="frete">
+                <a href="#">Clique e confira mais informações no nosso FAQ</a>
+            </div>
+        </div>
+        <div class="third-card">
+            <img src="/img/caminhao.png" alt="" class="logo-third">
+            <h2>QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAÚDAVEL</h2>
+            <div class="QCAS">
+                <a href="#">Clique e confira nossa Política de Entregas</a>
+            </div>
+        </div>
+    </section>
+    <!--Cards-->
+
+    <!--Texto do Meio-->
+    <div class="text">
+        <h3>Viva cada estação enquanto elas duram, respire o ar, beba a bebida, saboreie a fruta, e deixe-se levar
+            pela influência de cada uma.</h3>
+        <p> - Henry David Thoreau</p>
+    </div>
+    <!--Texto do Meio-->
+
+    <!--Frutas em Destaque-->
+    <section>
+        <div class="frutas-destaque">
+
+        </div>
+    </section>
+    <!--Frutas em Destaque-->
+
+
 
     <!--Roda-pé-->
     <footer>
+
         <!--LOGO COM ENUNCIADO-->
         <div class="container">
             <div class="footer-enunciado">
-                <div class="foot-logo">
-                    <img src="Imagens/footer/logo-footer.png" alt="logo onlyfrutas na cor branca" class="imglogo-footer">
-                </div>
+                <div class="foot-logo">Only<img src="/img/uva logo.png" alt="" class="imglogo-footer">Frutas</div>
                 <p>Seu delivery de frutas de Teresina - PI. Frutas secas e saborosas diretamente na sua casa.</p>
             </div>
 
@@ -159,19 +141,19 @@
 
             <!--INSTITUCIONAL-->
             <div class="institucional">
-                <h3>INSTITUCIONAL</h3>
+                <h5>INSTITUCIONAL</h5>
                 <ul class="institucional-menu">
                     <li class="inst-item">
-                        <a href="./produtos.html">Produtos</a>
+                        <a href="#">Produtos</a>
                     </li>
                     <li class="inst-item">
-                        <a href="./quemsomos.html">Quem somos</a>
+                        <a href="#">Quem somos</a>
                     </li>
                     <li class="inst-item">
-                        <a href="./faq.html">FAQ (Perguntas Frequentes)</a>
+                        <a href="#">FAQ (Perguntas Frequentes)</a>
                     </li>
                     <li class="inst-item">
-                        <a href="./contato.html">Contato</a>
+                        <a href="#">Contato</a>
                     </li>
                     <li class="inst-item">
                         <a href="#">Política de Entrega</a>
@@ -184,36 +166,27 @@
 
             <!--CATEGORIAS-->
             <div class="categorias">
-                <h3>CATEGORIAS</h3>
+                <h5>CATEGORIAS</h5>
                 <ul class="categorias-menu">
                     <li class="categ-item">
-                        <a href="#frutas-destaque">Promoções</a>
+                        <a href="#">Promoções</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#frutas-nacionais">Nacionais</a>
+                        <a href="#">Nacionais</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#frutas-importadas">Importados</a>
+                        <a href="#">Importados</a>
                     </li>
                 </ul>
             </div>
 
             <!--ATENDIMENTO-->
             <div class="atendimento">
-                <h3>ATENDIMENTO</h3>
+                <h5>ATENDIMENTO</h5>
                 <ul class="atendimento-menu">
-                    <li>
-                        <img src="./Imagens/footer/icone-email.svg" alt="icone email">
-                        <p>Email: onlyfrutas@gmail.com</p>
-                    </li>
-                    <li>
-                        <img src="./Imagens/footer/icone-telefone.svg" alt="icone telefone">
-                        <p>+55 86 9519-3998</p>
-                    </li>
-                    <li>
-                        <img src="./Imagens/footer/icone-localização.svg" alt="icone local">
-                        <p>Rua Morada Nova, 5295 Teresina- PI</p>
-                    </li>
+                    <p>Email: onlyfrutas@gmail.com</p>
+                    <p>+55 86 9519-3998</p>
+                    <p>Rua Morada Nova, 5295 Teresina- PI</p>
                 </ul>
             </div>
         </div>
