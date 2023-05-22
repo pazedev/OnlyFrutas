@@ -139,7 +139,7 @@ li {
 .paragrafo {
     font-size: 24px;
 }
-
+/*CARDS*/
 .cards {
     gap: 30px;
     padding: 50px;
@@ -278,6 +278,8 @@ a .click {
     align-items: center;
 }
 
+/*Frase-Meio*/
+
 .text {
     display: flex;
     justify-content: center;
@@ -323,6 +325,8 @@ a .click {
     text-align: center;
 }
 
+/*Destaque*/
+
 .frutas {
     display: flex;
     justify-content: center;
@@ -365,4 +369,79 @@ a .click {
     left: 132px;
     top: 1399px;
     border-radius: 0px 0px 4px 4px;
+}
+
+/*Footer*/
+
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0D8509;
+    padding: 60px;
+    margin: 10px 0 0;
+    color: #CDF68F;
+    font-size: 18px;
+}
+
+.container-foot .p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.copy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0 ;
+    text-align: center;
+}
+
+.title-one {
+    text-decoration: underline wavy #ACE754;
+    color: #F0FEDC;
+    padding: 10px;
+}
+
+.institucional-menu {
+    list-style: none;
+}
+
+.inst-item .a {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: flex-start;
+}
+
+.inst-item {
+    font-size: 1px;
+}
+
+/*Categorias*/
+.categorias .title-two{
+    text-decoration: underline wavy #ACE754;
+    color: #F0FEDC;
+}
+
+.categorias-menu {
+    list-style: none;
 }
