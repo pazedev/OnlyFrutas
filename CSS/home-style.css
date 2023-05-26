@@ -397,6 +397,20 @@ a .click {
     height: 176px;
 }
 
+.cestinha-prod {
+    position: relative;
+}
+
+.cestinha-img {
+    position: absolute;
+    right: 1px;
+    bottom: 5px; 
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
 .prod .name {
     color: #0EB409;
     font-family: 'Roboto';
