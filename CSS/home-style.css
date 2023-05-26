@@ -19,6 +19,10 @@ header {
     padding: 40px;
 }
 
+.initial-logo {
+    cursor: pointer;
+}
+
 /*BARRA DE PESQUISA*/
 
 .search {
@@ -46,7 +50,12 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.buy img {
+    width: 50px;
 }
 
 /*BARRA DE NAVEGAÇÃO*/
@@ -67,20 +76,20 @@ input {
     height: 50px;
 }
 
-a {
+.link-nav {
     text-decoration: none;
     color: #F0FEDC;
     font-size: 20px;
     height: 13px;
 }
 
-li:hover {
+.nav-item:hover {
     background-color: #CDF68F;
     padding: 10px;
     border-radius: 4px;
 }
 
-a:hover {
+.link-nav:hover {
     color: #0D8509;
 }
 
@@ -183,10 +192,13 @@ li {
     font-size: 18px;
     line-height: 24px;
     padding: 20px;
+    
 }
 
 .clicksaiba {
     text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
 }
 
 .clicksaiba:hover {
@@ -363,13 +375,70 @@ a .click {
     border-radius: 0px 0px 4px 4px;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     width: 1183px;
     height: 286px;
     left: 132px;
     top: 1399px;
     border-radius: 0px 0px 4px 4px;
+    gap: 7rem;
 }
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod img {
+    border-radius: 5px;
+    width: 258px;
+    height: 176px;
+}
+
+.prod .name {
+    color: #0EB409;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.prod .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B3F09;
+}
+
+/* .fruit-banana {
+    width: 258px;
+    height: 176px;
+}
+
+.fruit-maracuja {
+    width: 258px;
+    height: 176px;
+}
+
+.fruit-uva {
+    width: 258px;
+    height: 176px;
+} */
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    min-height: 50px;
+}
+
 
 /*Footer*/
 
@@ -378,7 +447,7 @@ a .click {
     justify-content: space-between;
     align-items: flex-start;
     background-color: #0D8509;
-    padding: 60px;
+    padding: 30px 10px;
     margin: 10px 0 0;
     color: #F0FEDC;
     font-size: 18px;
@@ -402,6 +471,10 @@ a .click {
 }
 
 .container-foot a{
+    color: #CDF68F;
+}
+
+.text-enunce {
     color: #CDF68F;
 }
 
@@ -435,6 +508,11 @@ a .click {
     list-style: none;
 }
 
+.link-inst {
+    color: #CDF68F;
+    text-decoration: none;
+}
+
 .institucional-menu li {
     padding: 1px;
 }
@@ -446,6 +524,11 @@ a .click {
     letter-spacing: 3px;
     margin-bottom: 5px;
     flex-direction: column;
+}
+
+.link-cat {
+    color: #CDF68F;
+    text-decoration: none;
 }
 
 .title-two {  
@@ -476,4 +559,15 @@ a .click {
 
 .atendimento-menu {
     color: #CDF68F;
+}
+
+.ico {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title-third{
+    text-decoration: underline wavy #ACE754;
 }

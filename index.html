@@ -27,7 +27,7 @@
 
         <div class="content">
             <h2>
-                <img src="./Imagens/Home/Vector.png" alt="">
+                <img class="initial-logo" src="./Imagens/Home/Vector.png" alt="">
             </h2>
             <form id="divBusca">
                 <label for="txtBusca" class="search">
@@ -50,19 +50,19 @@
         <nav class="nav-bar">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#">HOME</a>
+                    <a class="link-nav" href="#">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">PRODUTOS</a>
+                    <a class="link-nav" href="#">PRODUTOS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">QUEM SOMOS</a>
+                    <a class="link-nav" href="#">QUEM SOMOS</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">FAQ</a>
+                    <a class="link-nav" href="#">FAQ</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#">CONTATO</a>
+                    <a class="link-nav" href="#">CONTATO</a>
                 </li>
             </ul>
         </nav>
@@ -151,8 +151,31 @@
             </h1>
         </div>
         <div class="produtos">
+            
+            <div class="prod">
+                <img class="fruit-banana" src="Imagens/Home/banana.jpg" alt="">
+                <div class="description">
+                    <span class="name">BANANA PRATA - 1kg</span>
+                    <span class="price">R$ 05,99</span>
+                </div>
+            </div>
 
-        </div>
+            <div class="prod">
+                <img class="fruit-maracuja" src="Imagens/Home/maracuja.jpg" alt="">
+                <div class="description">
+                    <span class="name">MARACUJÁ - 1kg</span>
+                    <span class="price">R$ 08,99</span>
+                </div>
+            </div>
+
+            <div class="prod">
+                <img class="fruit-uva" src="Imagens/Home/uva.jpg" alt="">
+                <div class="description">
+                    <span class="name">UVA VERDE C/<br/> SEMENTE - 500gr</>
+                    <span class="price">R$ 05,99</span>
+                </div>
+            </div>
+        </div>    
     </section>
     <!--Frutas em Destaque-->
 
@@ -165,7 +188,8 @@
         <div class="container-foot">
             <div class="footer-enunciado">
                 <div class="foot-logo"><img src="./Imagens/Home/logo-footer.png" alt="" class="imglogo-footer"></div>
-                <p>Seu delivery de frutas de Teresina - PI. <br/> Frutas secas e saborosas diretamente na sua casa.</p>
+                <span class="text-enunce">Seu delivery de frutas de Teresina - PI. <br /> Frutas secas e saborosas
+                    diretamente na sua casa.</span>
 
                 <div class="copy">
                     Copyright © 2023 OnlyFrutas. Todos os direitos reservados.
@@ -178,49 +202,59 @@
                 <h5 class="title-one">INSTITUCIONAL</h5>
                 <ul class="institucional-menu">
                     <li class="inst-item">
-                        <a href="#">Produtos</a>
+                        <a class="link-inst" href="#">Produtos</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">Quem somos</a>
+                        <a class="link-inst" href="#">Quem somos</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">FAQ (Perguntas Frequentes)</a>
+                        <a class="link-inst" href="#">FAQ (Perguntas Frequentes)</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">Contato</a>
+                        <a class="link-inst" href="#">Contato</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">Política de Entrega</a>
+                        <a class="link-inst" href="#">Política de Entrega</a>
                     </li>
                     <li class="inst-item">
-                        <a href="#">Política de Segurança e Privacidade</a>
+                        <a class="link-inst" href="#">Política de Segurança e Privacidade</a>
                     </li>
                 </ul>
             </div>
 
             <!--CATEGORIAS-->
             <div class="categorias">
-                <h5 class="title-two" >CATEGORIAS</h5>
+                <h5 class="title-two">CATEGORIAS</h5>
                 <ul class="categorias-menu">
                     <li class="categ-item">
-                        <a href="#">Promoções</a>
+                        <a class="link-cat" href="#">Promoções</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#">Nacionais</a>
+                        <a class="link-cat" href="#">Nacionais</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#">Importados</a>
+                        <a class="link-cat" href="#">Importados</a>
                     </li>
                 </ul>
             </div>
 
             <!--ATENDIMENTO-->
             <div class="atendimento">
-                <h5>ATENDIMENTO</h5>
+                <h5 class="title-third">ATENDIMENTO</h5>
                 <ul class="atendimento-menu">
-                    <p>Email: onlyfrutas@gmail.com</p>
-                    <p>+55 86 9519-3998</p>
-                    <p>Rua Morada Nova, 5295 Teresina- PI</p>
+                    <div class="email ico">
+                        <img src="Imagens/Home/icons8-nova-mensagem-30 1.png" alt="">
+                        <span>Email: onlyfrutas@gmail.com</span>
+                    </div>
+                    <div class="tel ico">
+                        <img src="./Imagens/Home/icons8-telefone-30 1.png" alt="">
+                        <span>+55 86 9519-3998</span>
+                    </div>
+                    <div class="endereço ico">
+                        <img src="./Imagens/Home/icons8-pino-32 1.png" alt="">
+                        <span>Rua Morada Nova, 5295 Teresina- PI</span>
+                    </div>
+
                 </ul>
             </div>
         </div>
