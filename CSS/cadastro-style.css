@@ -117,7 +117,152 @@ li {
     height: 567px;
     object-fit: cover;
 }
+/*formulario cadastro*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #0D8509;
+    padding: 30px 10px;
+    margin: 10px 0 0;
+    color: #F0FEDC;
+    font-size: 18px;
+}
+
+.container-foot .p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CDF68F;
+}
+
+.container-foot a{
+    color: #CDF68F;
+}
+
+.text-enunce {
+    color: #CDF68F;
+}
+
+.copy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0 ;
+    text-align: center;
+    color: #CDF68F;
+}
+
+.institucional .title-one{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.title-one {
+    text-decoration: underline wavy #ACE754;
+}
+
+.institucional-menu {
+    list-style: none;
+}
+
+.link-inst {
+    color: #CDF68F;
+    text-decoration: none;
+}
+
+.institucional-menu li {
+    padding: 1px;
+}
+
+.categorias {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+.link-cat {
+    color: #CDF68F;
+    text-decoration: none;
+}
+
+.title-two {  
+    text-decoration: underline wavy #ACE754;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.categorias-menu {
+    list-style: none;
+}
+
+.categorias-menu li{
+    padding: 1px;
+}
+
+.atendimento {
+    font-size: 20px;
+}
+
+.title-third {
+    text-decoration: underline wavy #ACE754;
+    margin-bottom: 5px;
+}
+
+.atendimento-menu {
+    color: #CDF68F;
+}
+
+.ico {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title-third{
+    text-decoration: underline wavy #ACE754;
+}
 
 
 
