@@ -4,10 +4,10 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contato</title>
+        <title>Cadastro</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./css/cadastro.css">
     </head>
     
     <body>
@@ -62,40 +62,47 @@
             </section>       
             <section>
                 <form action="formulário de cadastro" method="post" enctype=text/plain">
-            <div class="formulário">
-                    <label> Nome<br/></label>
-                    <input type = texto id=nome nome = nome_usuario required>
-            </div>
-            <br>
-            <div class="formulário">
-                    <label> <br>E-mail<br/></label>
-                    <input type = e-mail id=e-mail nome = e-mail_usuario required>
-            </div>
-            <br>
-            <div class="Formuário">
-                    <label> <br>Whatsapp<br/></label>
-                    <input type = whatsapp id=whatsapp nome = whatsapp_usuario required>  
-            </div>
-            <br>
-            <div class="Formulário">
-                    <label for="diaa">Data de nascimento:</label>
-                    <input type="date" id="diaa" name="diaa">
-            </div>
-            <br>
-            <div class="Formulário">
-                    <label for="senha">Senha(no maxímo 8 caracteries): </label>
-                    <input type="password" id="senha" name="senha">
-            </div>
-            <br>
-            <div class="Formulário">
-                    <button class="submit">Criar conta</button>
-            </div>
-            <br>
-            <section>
-                <p>Ao criar uma conta, você concorda com a nossa Política de Privacidade.</P>
-                <p>Quero receber descontos e ofertas exclusivas por e-mail e whatsapp</p>
-            </section>
-                
+                    <div class="formulário">
+                        <label> Nome<br/></label>
+                        <input type = texto id=nome nome = nome_usuario required>
+                    </div>
+                    <br>
+                    <div class="formulário">
+                        <label> Sobrenome<br/></label>
+                        <input type = texto id=sobrenome nome = sobrenome_usuario required>
+                    </div>
+                    <br>
+                    <div class="formulário">
+                        <label> <br>E-mail<br/></label>
+                        <input type = e-mail id=e-mail nome = e-mail_usuario required>
+                    </div>
+                    <br>
+                    <div class="Formuário">
+                        <label> <br>Whatsapp<br/></label>
+                        <input type = whatsapp id=whatsapp nome = whatsapp_usuario required>  
+                    </div>
+                    <br>
+                    <div class="Formulário">
+                        <label for="diaa">Data de nascimento:</label>
+                        <input type="date" id="diaa" name="diaa">
+                    </div>
+                    <br>
+                    <div class="Formulário">
+                        <label for="senha">Senha(no maxímo 8 caracteries): </label>
+                        <input type="password" id="senha" name="senha">
+                    </div>
+                    <br>
+                    <div class="condições para criar conta">
+                        <input type="checkbox" id="texto" name="texto">
+                        <label for="texto">Quero receber descontos e ofertas exclusivas por e-mail e whatsapp </label>
+                        <br>
+                        <input type="checkbox" id="texto" name="texto">
+                        <label for="texto">Ao criar uma conta, você concorda com a nossa Política de Privacidade. </label>
+                    </div>
+                    <br>
+                    <div class="botão criar conta ">
+                        <button class="submit">Criar conta</button>
+                    </div>
                 </form>
             </section>
         </main>
