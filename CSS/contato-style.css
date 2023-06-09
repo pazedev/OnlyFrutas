@@ -1,0 +1,125 @@
+* {
+    font-family: 'PT Serif', 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0FEDC;
+}
+
+/*LOGO*/
+header {
+    background-color: #E4FBC1;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.initial-logo {
+    cursor: pointer;
+}
+
+/*BARRA DE PESQUISA*/
+
+.search {
+    background-color: #86C02E;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #EBECE9;
+    width: 650px;
+
+    &::placeholder {
+        color: #EBECE9;
+    }
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.buy img {
+    width: 50px;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+
+.nav-bar {
+
+    background-color: #0D8509;
+    height: 50px;
+
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 50px;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: #F0FEDC;
+    font-size: 20px;
+    height: 13px;
+}
+
+.nav-item:hover {
+    background-color: #CDF68F;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.link-nav:hover {
+    color: #0D8509;
+}
+
+li {
+    padding: 10px;
+}
+
+/*BANNER*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-left {
+    transform: scaleX(-1);
+    width: 679px;
+    height: 567px;
+    object-fit: cover;
+}
+
+.img-right {
+    width: 679px;
+    height: 567px;
+    object-fit: cover;
+}
+
+.main-titulo h1 {
+   text-align: center;
+   color: #0D8509;
+
+}
