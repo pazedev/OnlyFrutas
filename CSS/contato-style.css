@@ -5,7 +5,12 @@
 }
 
 body {
+    display: center;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     background-color: #F0FEDC;
+   
 }
 
 /*LOGO*/
@@ -118,8 +123,64 @@ li {
     object-fit: cover;
 }
 
-.main-titulo h1 {
+.main-ctt{
+   display: flex;
    text-align: center;
    color: #0D8509;
+   justify-content: space-around;
+   flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-formulario{
+    display: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px 45px;
+    background: #E4FBC1;
+    width:500px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.section-form{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.form-label{
+    color:#0D8509;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+.form-input{
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
