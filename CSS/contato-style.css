@@ -123,64 +123,220 @@ li {
     object-fit: cover;
 }
 
+
 .main-ctt{
+
    display: flex;
    text-align: center;
    color: #0D8509;
-   justify-content: space-around;
+   justify-content: space-between;
    flex-direction: column;
 }
+.container-ctt h1{
+    text-align-last: center;   
+    margin: 60px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.section-formulario{
-    display: center;
+.img-lg-paragrafo{
+    display: flex;
+    background-color: #E4FBC1;
     align-items: center;
-    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 710px;
+    margin-right: 30px;
+    width: 500px;
+    padding: 30px 45px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.link-fac{
+    display: flex;
+    background-color: #86C02E;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+.img-paragrafo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.form-ctt{
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
     flex-direction: column;
     padding: 10px 45px;
     background: #E4FBC1;
+    margin-left: 710px;
+    margin-right: 30px;
     width:500px;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
-}
-.section-form{
-    display: flex;
-    flex-direction: column;
-    width: 100px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 20px 48px;
 }
 
-.form-label{
-    color:#0D8509;
-    font-size: 17px;
+.label{
+    color: #F0FEDC;
+    font-size:17px;
     margin-bottom: 4px;
 }
-.form-input{
+.input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transform: all 0,5s;
+
+}
+/*parte referente as informações de contato*/
+
+.contato-fundo{
+    display: flex;
+    
 
 }
 
 
 
+.description {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        min-height: 50px;
+    }
+    /*Footer*/
 
+.container-foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #0D8509;
+    padding: 30px 10px;
+    margin: 10px 0 0;
+    color: #F0FEDC;
+    font-size: 18px;
+}
 
+.container-foot .p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /*text-align: center;*/
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: stretch;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #CDF68F;
+}
 
+.container-foot a {
+    color: #CDF68F;
+}
 
+.text-enunce {
+    color: #CDF68F;
+}
 
+.copy {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 80px 0;
+    text-align: center;
+    color: #CDF68F;
+}
 
+.institucional .title-one {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
 
+.title-one {
+    text-decoration: underline wavy #ACE754;
+}
 
+.institucional-menu {
+    list-style: none;
+}
 
+.link-inst {
+    color: #CDF68F;
+    text-decoration: none;
+}
+
+.institucional-menu li {
+    padding: 1px;
+}
+
+.categorias {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+
+.link-cat {
+    color: #CDF68F;
+    text-decoration: none;
+}
+
+.title-two {
+    text-decoration: underline wavy #ACE754;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.categorias-menu {
+    list-style: none;
+}
+
+.categorias-menu li {
+    padding: 1px;
+}
+
+.atendimento {
+    font-size: 20px;
+}
+
+.title-third {
+    text-decoration: underline wavy #ACE754;
+    margin-bottom: 5px;
+}
+
+.atendimento-menu {
+    color: #CDF68F;
+}
+
+.ico {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.title-third {
+    text-decoration: underline wavy #ACE754;
+}
