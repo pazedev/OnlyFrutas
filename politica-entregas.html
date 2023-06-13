@@ -4,54 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Roboto+Condensed:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/politicas-style.css">
     <title>Only-frutas</title>
 </head>
 
 <body>
     <header>
-        <div class="nav-topo">
+        <div class="content">
             <!--LOGO-->
-            <div class="nav-logo">
-                <img src="./Imagens/logo.png" alt="" class="logo da Onlyfrutas">
-            </div>
+                <a href="./index.html"><img src="./Imagens/logo.png" alt="" class="logo da Onlyfrutas"></a>
 
             <!--Caixa de Pesquisa-->
-            <div id="busca">
-                <input type="text" id="txtBusca" placeholder="Digite aqui o que procura..." />
-                <img src="./Imagens/icone-PESQUISA.png" id="btnBusca" alt="icone buscar" />
-                <img src="./Imagens/usuario.png" alt="icone usuario" width="25px">
-                <img src="./Imagens/cestinha.png" alt="icone cestinha de compras" width="25px">
-            </div>
+            <form class="divBusca">
+                <label for="txtBusca">
+                    <input type="text" placeholder="Digite aqui o que procura..." />
+                    <img src="Imagens/Home/PESQUISA.svg" class="iconPesquisa" alt="icone pesquisa">
+                </label>
+            </form>
+
+            <!-- Icones laterais do menu -->
+                <span>
+                    <a href="#"><img src="Imagens/cestinha.png" alt="cestinha"></a>
+                </span>
+                <span>
+                    <a href="./cadastro.html"><img src="Imagens/usuario.png" alt="usuario"></a>
+                </span>
+        </div>
 
             <!--Menu-->
-            <nav class="nav-bar">
-                <div class="menu">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                        <a href="./index.html">HOME</a>
-                        </li> 
-                        <li class="nav-item">
-                            <a href="./quemsomos.html">QUEM SOMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./produtos.html">PRODUTOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./faq.html">FAQ</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="./contato.html">CONTATO</a>
-                        </li>
-                    </ul>
-                </div>
+            <nav class="nav-bg">
+                <ul class="nav-bar">
+                    <li>
+                        <a class="link-nav" href="./index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="./produtos.html">PRODUTOS</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="./quemsomos.html">QUEM SOMOS</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="./faq.html">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="link-nav" href="./contato.html">CONTATO</a>
+                    </li>
+                </ul>
             </nav>
         </div>
     </header>
     <!--Menu-->
 
     <main>
-
-        <!--Banner-->
+        <!--CONTEÚDO-->
 
         <div class="quem-somos">
             <img src="./Imagens/quem-somos/fundo-quem-somos.png" width="80%">
@@ -73,24 +89,26 @@
             <p>Se houver dúvidas sobre a cobertura das regiões de entrega poderá entrar em <a href="./contato.html">contato conosco</a>, ou preencher o cep do seu endereço no respectivo produto para consultar se está disponível a entrega em seu endereço, qualquer dúvida estaremos à disposição. </p>
         </div>
     
+    
     <!--Roda-pé-->
     <footer>
+
         <!--LOGO COM ENUNCIADO-->
-        <div class="container">
+        <div class="container-foot">
             <div class="footer-enunciado">
-                <div class="foot-logo">
-                    <img src="Imagens/footer/logo-footer.png" alt="logo onlyfrutas na cor branca" class="imglogo-footer">
+                <div class="foot-logo"><img src="./Imagens/Home/logo-footer.png" alt="" class="imglogo-footer"></div>
+                <span class="text-enunce">Seu delivery de frutas de Teresina - PI. <br /> Frutas secas e saborosas
+                    diretamente na sua casa.</span>
+
+                <div class="copy">
+                    Copyright © 2023 OnlyFrutas. Todos os direitos reservados.
                 </div>
-                <p>Seu delivery de frutas de Teresina - PI. Frutas secas e saborosas diretamente na sua casa.</p>
             </div>
 
-            <div class="copy">
-                Copyright © 2023 OnlyFrutas. Todos os direitos reservados.
-            </div>
 
             <!--INSTITUCIONAL-->
             <div class="institucional">
-                <h3>INSTITUCIONAL</h3>
+                <h5 class="title-footer">INSTITUCIONAL</h5>
                 <ul class="institucional-menu">
                     <li class="inst-item">
                         <a href="./produtos.html">Produtos</a>
@@ -115,36 +133,37 @@
 
             <!--CATEGORIAS-->
             <div class="categorias">
-                <h3>CATEGORIAS</h3>
+                <h5 class="title-footer">CATEGORIAS</h5>
                 <ul class="categorias-menu">
                     <li class="categ-item">
-                        <a href="#frutas-destaque">Promoções</a>
+                        <a class="link-cat" href="#">Promoções</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#frutas-nacionais">Nacionais</a>
+                        <a class="link-cat" href="#">Nacionais</a>
                     </li>
                     <li class="categ-item">
-                        <a href="#frutas-importadas">Importados</a>
+                        <a class="link-cat" href="#">Importados</a>
                     </li>
                 </ul>
             </div>
 
             <!--ATENDIMENTO-->
             <div class="atendimento">
-                <h3>ATENDIMENTO</h3>
+                <h5 class="title-footer">ATENDIMENTO</h5>
                 <ul class="atendimento-menu">
-                    <li>
-                        <img src="./Imagens/footer/icone-email.svg" alt="icone email">
-                        <p>Email: onlyfrutas@gmail.com</p>
-                    </li>
-                    <li>
-                        <img src="./Imagens/footer/icone-telefone.svg" alt="icone telefone">
-                        <p>+55 86 9519-3998</p>
-                    </li>
-                    <li>
-                        <img src="./Imagens/footer/icone-localização.svg" alt="icone local">
-                        <p>Rua Morada Nova, 5295 Teresina- PI</p>
-                    </li>
+                    <div class="email ico">
+                        <img src="Imagens/Home/icons8-nova-mensagem-30 1.png" alt="">
+                        <span>Email: onlyfrutas@gmail.com</span>
+                    </div>
+                    <div class="tel ico">
+                        <img src="./Imagens/Home/icons8-telefone-30 1.png" alt="">
+                        <span>+55 86 9519-3998</span>
+                    </div>
+                    <div class="endereço ico">
+                        <img src="./Imagens/Home/icons8-pino-32 1.png" alt="">
+                        <span>Rua Morada Nova, 5295 Teresina- PI</span>
+                    </div>
+
                 </ul>
             </div>
         </div>
