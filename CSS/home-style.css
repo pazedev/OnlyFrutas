@@ -477,7 +477,6 @@ a .click {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    /*text-align: center;*/
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
