@@ -135,7 +135,7 @@ footer {
     list-style: none;
 }
 
-.lista-footer li {
+.li-footer {
     padding: 6px 0px;
 }
 
@@ -144,6 +144,8 @@ footer {
     justify-content: flex-start;
     align-items: center;
     gap: 4px;
+    padding: 6px;
+    color: #CDF68F;
 }
 
 .lista-footer span {

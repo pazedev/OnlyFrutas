@@ -1,1 +1,68 @@
-@import './global-style.css'
+@import './global-style.css';
+
+main {
+    background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
+    background-size: cover;
+    padding: 80px 200px;
+}
+
+.politica-bg {
+    background: #E4FBC1;
+    padding: 40px 80px;
+    border-radius: 8px;
+}
+
+.titulo-politica {
+    font-family: 'PT Serif', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0D8509;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.politica-bg p, .politica-bg ul, .politica-bg li {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: justify;
+    color: #0B3F09;
+}
+
+.politica-bg p, .politica-bg ul {
+    text-indent: 40px;
+    margin-bottom: 10px;
+}
+
+.politica-bg li {
+    margin-left: 60px;
+    text-indent: 2px;
+    list-style: circle;
+}
+
+/* POLITICA DE ENTREGAS */
+
+.subtitulo-politica {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #0D8509;
+}
+
+.entrega ul, .entrega li {
+    color: #0B3F09;
+    text-indent: 0px;
+    margin-left: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.politica-bg a {
+    text-decoration: none;
+    color: #0B3F09;
+    font-weight: 700;
+}
