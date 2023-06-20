@@ -84,6 +84,7 @@ a {
     margin: 30px;
     flex-direction: column;
     width: 500px;
+   
     
 }
 .informs {
@@ -107,13 +108,15 @@ a {
 
 }
 
-.formulario textarea {
+.menssagem textarea {
     padding: 10px;
     color: #0D8509;
     background: #F0FEDC;
     width: 450px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    
+   
 }
 
 .formulario button {

@@ -1,75 +1,103 @@
 @import url('./global-style.css');
 
-.main-cdt{
-    display: flex;
-    flex-direction: row;
-    color: #0d8509;
-    margin: 30px;
-    padding: 20px;
-    padding-top: 100px;
-    justify-content: space-around;
-    background-color: #0d8509;
+.main-cdt {
+    margin: 0;
+    background: #86C02E;
+    color: #ebeceb;
 }
+
 .container1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border: 5px#0d8509;
+    
 }
+
 .titulo {
     display: flex;
-    flex-direction: column;
+    padding: 20px;
+}
+.container1 p {
+    display: flex;
+    background:#0d8509;
+    border-radius: 15px;
+    padding: 10px;
     text-align: center;
-    align-items: center;
-    position: relative;
-    
+    width: 600px;
    
 }
 
+/*caixa principal*/
 
 .container2 {
     display: flex;
-    flex-direction: column;
-    background: #e4fbc1;
-    width: 500px;
+    flex-direction: row;
+    padding: 20px;
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(rgb(10, 3, 3));
-
+    color: #0d8509;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 20px;
+  
 }
+
 
 /*Formulario*/
 
-.header{
-    display: flex;
-    padding: 20px;
-    font-size: 17px;
-    text-align: center;
-    justify-content: center;
-    background: #b9ef68;
-    border-radius:10px ;
-}
+
 .form{
     padding:10px;
+    
+    background: #e4fbc1;
+    width: 600px;
+    height: 348px;
+   
 }
+
+.header h3 {
+    display: flex;
+    background: #86C02E;
+    color: #f9fdf4;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    
+}
+
+
+
 .form-control{
-    margin-bottom: 10px;
-    padding: 3px;
-    position: relative;
+    padding: 10px;
 }
-.form-control label {
-    display: inline-block;
-    margin-bottom: 5px;
-}
+
 
 .form-control input {
 border: 2px solid;
 display: block;
-border-radius:10px;
+border-radius:5px;
 font-size: 14 px;
-width: 100%;
+width: 200px;
 padding: 5px;
 background:#f9fdf4;
 color: #0d8509;
 border: #e4fbc1;
+}
+.formulario1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+
+}
+.formulario2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
 }
 
 /*Botao do formulario de cadastro*/
@@ -77,13 +105,14 @@ border: #e4fbc1;
 .form button {
     background: #86C02E;
     border: #86C02E;
-    color: #0d8509;
+    color: #f9fdf4;
     font-size: 17px;
-    width: 50%;
+    width: 35%;
     border-radius: 10px;
     padding: 12px;
     text-align: center;
-    margin-left: 250px;
+    margin-left: 358px;
+    padding: 10px;
     position: relative;
     
    
