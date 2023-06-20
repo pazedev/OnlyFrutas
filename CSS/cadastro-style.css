@@ -56,7 +56,6 @@
 
 .form{
     padding:10px;
-    
     background: #e4fbc1;
     width: 600px;
     height: 348px;
@@ -75,8 +74,6 @@
     
 }
 
-
-
 .form-control{
     padding: 10px;
 }
@@ -92,12 +89,16 @@ padding: 5px;
 background:#f9fdf4;
 color: #0d8509;
 border: #e4fbc1;
+flex-direction: row;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
 }
 .formulario1 {
     display: flex;
     justify-content: space-between;
     margin-right: 10px;
     padding: 10px;
+
 
 }
 .formulario2 {
