@@ -24,205 +24,195 @@
 <body>
 
     <header>
-
+        <!--Topo-->
         <div class="content">
-            <h2>
-                <img class="initial-logo" src="./Imagens/Home/Vector.png" alt="Logo da OnlyFrutas">
-            </h2>
-            <form id="divBusca">
-                <label for="txtBusca" class="search">
+                <a href="./index.html"><img class="initial-logo" src="./Imagens/Home/Vector.png" alt=""></a>
+            <form>
+                <label form="txtBusca" class="search">
                     <input type="text" id="txtBusca" placeholder="Digite aqui o que procura..." />
                     <img src="Imagens/Home/PESQUISA.svg" alt="">
                 </label>
             </form>
-            <div class="buy">
-                <span>
-                    <img src="Imagens/cestinha.png" alt="cestinha">
-                </span>
-                <span>
-                    <img src="Imagens/usuario.png" alt="usuario">
-                </span>
-            </div>
+                    <a href="#"><img src="Imagens/cestinha.png" id="iconsLaterais" alt="cestinha"></a>
+                    <a href="/cadastro.html"><img src="Imagens/usuario.png" id="iconsLaterais" alt="usuario"></a>
         </div>
+        <!--Fim Topo-->
 
         <!--Menu-->
-        <nav class="nav-bar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
+        <nav class="nav-bg">
+            <ul class="nav-bar">
+                <li>
                     <a class="link-nav" href="./index.html">HOME</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="link-nav" href="./produtos.html">PRODUTOS</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="link-nav" href="./quemsomos.html">QUEM SOMOS</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="link-nav" href="./faq.html">FAQ</a>
                 </li>
-                <li class="nav-item">
+                <li>
                     <a class="link-nav" href="./contato.html">CONTATO</a>
                 </li>
             </ul>
         </nav>
+        <!--Fim Menu-->
     </header>
-    <!--Menu-->
 
-    <main class="banner">
-
-        <!--Banner-->
-
-        <img src="./Imagens/Home/frutabanner.png" alt="" class="img-left">
-        <div class="main-content-text">
-            <h1 class="apresentaçao">DELIVERY DE FRUTAS!</h1>
-            <p class="paragrafo">Frutas frescas e saborosas <br /> diretamente na sua casa <br /> com apenas um clique
-            </p>
-            <button class="btn-lg" href="#">Conheça nossos produtos</button>
-        </div>
-        <img src="./Imagens/Home/frutabanner02.png.png" alt="" class="img-right">
-    </main>
-
-    <!--Cards-->
-    <section class="cards">
-        <div class="first-card">
-
-            <div class="sobre-empresa">
-                <div class="logo-first">
-                    <img src="./Imagens/Home/uva logo.png" alt="">
-                </div>
-                <h2 class="quali">QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAÚDAVEL</h2>
-                <div class="click-me">
-                    <a class="clicksaiba" href="#">Clique e saiba mais sobre a empresa</a>
-                </div>
+    <main>
+        <div class="banner">
+            <!--Banner-->
+            <img src="./Imagens/home/banner esq.png" alt="frutas diversas e coloridas" class="img-banner">
+            <div class="main-content-text">
+                <h1 class="apresentaçao">DELIVERY DE FRUTAS</h1>
+                <p class="paragrafo">Frutas frescas e saborosas <br /> diretamente na sua casa <br /> com apenas um clique
+                </p>
+                <button class="btn-lg" >Conheça nossos produtos</button>
             </div>
+            <img src="./Imagens/home/banner dir.png" alt="frutas diversas e coloridas" class="img-banner">
         </div>
 
-        <div class="second-card">
+        <!--Cards-->
+        <section class="cards">
+            <div class="first-card">
 
-            <div class="frete-empresa">
-                <div class="logo-second">
-                    <img src="./Imagens/Home/wow.png" alt="">
-                </div>
-                <h2 class="quali">QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAÚDAVEL</h2>
-                <div class="click-me">
-                    <a class="clicksaiba" href="#">Clique e saiba mais sobre a empresa</a>
+                <div class="sobre-empresa">
+                    <div class="logos-card">
+                        <img src="./Imagens/Home/uva logo.png" alt="icone uva">
+                    </div>
+                    <h2 class="quali">QUALIDADE, COMODIDADE E ALIMENTAÇÃO SAÚDAVEL</h2>
+                    <div class="click-me">
+                        <a class="clicksaiba" href="./quemsomos.html">Clique e saiba mais sobre a empresa</a>
+                    </div>
                 </div>
             </div>
 
-        </div>
+            <div class="second-card">
 
-        <div class="third-card">
-            <div class="entrega-the">
-                <div class="logo-third">
-                    <img src="./Imagens/Home/caminhao.png" alt="">
-                </div>
-                <h2 class="entrega">ENTREGAMOS EM TODA A CIDADE DE TERESINA - PI</h2>
-                <div class="click-me">
-                    <a class="clicksaiba" href="#">Clique e confira nossa Política de Entregas</a>
+                <div class="frete-empresa">
+                    <div class="logos-card">
+                        <img src="./Imagens/Home/wow.png" alt="icone wow">
+                    </div>
+                    <h2 class="quali">FRETE GRÁTIS EM COMPRAS ACIMA DE R$100</h2>
+                    <div class="click-me">
+                        <a class="clicksaiba" href="/faq.html">Clique e confira mais informações no nosso FAQ</a>
+                    </div>
                 </div>
 
             </div>
 
-        </div>
+            <div class="third-card">
+                <div class="entrega-the">
+                    <div class="logos-card">
+                        <img src="./Imagens/Home/caminhao.png" alt="icone caminhao">
+                    </div>
+                    <h2 class="entrega">ENTREGAMOS EM TODA A CIDADE DE TERESINA - PI</h2>
+                    <div class="click-me">
+                        <a class="clicksaiba" href="./politica-entregas.html">Clique e confira nossa Política de Entregas</a>
+                    </div>
 
-
-    </section>
-    <!--Cards-->
-
-    <!--Texto do Meio-->
-    <div class="text">
-        <h3 class="frase"><img src="Imagens/Home/“.png" alt=""> Viva cada estação enquanto elas duram, respire o ar,
-            beba a bebida, <span class="text-cor">saboreie a fruta</span>, e deixe-se levar pela influência de cada uma.
-            <img src="Imagens/Home/“ (1).png" alt="">
-        </h3>
-        <div class="henry">
-            <p class="autor"> - Henry David Thoreau</p>
-        </div>
-    </div>
-
-    <!--Texto do Meio-->
-
-    <!--Frutas em Destaque-->
-    <section class="frutas">
-        <div class="frutas-destaque">
-            <h1 class="frutas-destacadas">
-                FRUTAS EM DESTAQUE
-            </h1>
-        </div>
-        <div class="produtos">
-
-            <div class="prod">
-                <div class="cestinha-prod">
-                    <img class="fruit-banana" src="Imagens/Home/banana.jpg" alt="">
-                    <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
                 </div>
-                <div class="description">
-                    <span class="name">BANANA PRATA - 1kg</span>
-                    <span class="price">R$ 05,99</span>
-                </div>
+
             </div>
+        </section>
+        <!--Cards-->
 
-            <div class="prod">
-                <div class="cestinha-prod">
-                    <img class="fruit-maracuja" src="Imagens/Home/maracuja.jpg" alt="">
-                    <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
-                </div>
-                <div class="description">
-                    <span class="name">MARACUJÁ - 1kg</span>
-                    <span class="price">R$ 08,99</span>
-                </div>
+        <!--Texto do Meio-->
+        <div class="text">
+            <h3 class="frase"><img src="Imagens/Home/“.png" alt=""> Viva cada estação enquanto elas duram, respire o ar,
+                beba a bebida, <span class="text-cor">saboreie a fruta</span>, e deixe-se levar pela influência de cada uma.
+                <img src="Imagens/Home/“ (1).png" alt="">
+            </h3>
+            <div class="henry">
+                <p class="autor"> - Henry David Thoreau</p>
             </div>
+        </div>
 
-            <div class="prod">
-                <div class="cestinha-prod">
-                    <img class="fruit-uva" src="Imagens/Home/uva.jpg" alt="">
-                    <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
-                </div>
-                <div class="description">
-                    <span class="name">UVA VERDE C/<br /> SEMENTE - 500gr</>
+        <!--Texto do Meio-->
+
+        <!--Frutas em Destaque-->
+        <section class="frutas">
+            <div class="frutas-destaque">
+                <h1 class="frutas-destacadas">
+                    FRUTAS EM DESTAQUE
+                </h1>
+            </div>
+            <div class="produtos">
+
+                <div class="prod">
+                    <div class="cestinha-prod">
+                        <img class="fruit-banana" src="Imagens/Home/banana.jpg" alt="">
+                        <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
+                    </div>
+                    <div class="description">
+                        <span class="name">BANANA PRATA - 1kg</span>
                         <span class="price">R$ 05,99</span>
+                    </div>
+                </div>
+
+                <div class="prod">
+                    <div class="cestinha-prod">
+                        <img class="fruit-maracuja" src="Imagens/Home/maracuja.jpg" alt="icone maracuja">
+                        <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
+                    </div>
+                    <div class="description">
+                        <span class="name">MARACUJÁ - 1kg</span>
+                        <span class="price">R$ 08,99</span>
+                    </div>
+                </div>
+
+                <div class="prod">
+                    <div class="cestinha-prod">
+                        <img class="fruit-uva" src="Imagens/Home/uva.jpg" alt="">
+                        <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
+                    </div>
+                    <div class="description">
+                        <span class="name">UVA VERDE C/ SEMENTE</span>
+                            <span class="price">R$ 05,99</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--Frutas em Destaque-->
+        </section>
+        <!--Frutas em Destaque-->
+    </main>
+    </body>
 
-    <!--Roda-pé-->
     <footer>
-
+        <!--Roda-pé-->
         <!--LOGO COM ENUNCIADO-->
         <div class="container-foot">
             <div class="footer-enunciado">
-                <div class="foot-logo"><img src="./Imagens/Home/logo-footer.png" alt="" class="imglogo-footer"></div>
-                <span class="text-enunce">Seu delivery de frutas de Teresina - PI. <br /> Frutas secas e saborosas
-                    diretamente na sua casa.</span>
-
-                <div class="copy">
+                <a href="./index.html"><img src="./Imagens/Home/logo-footer.png" alt="" class="imglogo-footer"></a>
+                <p class="text-enunce">Seu delivery de frutas de Teresina - PI. <br /> Frutas secas e saborosas
+                    diretamente na sua casa.</p>
+                <p class="text-copy">
                     Copyright © 2023 OnlyFrutas. Todos os direitos reservados.
-                </div>
+                </p>
             </div>
 
 
             <!--INSTITUCIONAL-->
             <div class="institucional">
-                <h5 class="title-one">INSTITUCIONAL</h5>
-                <ul class="institucional-menu">
-                    <li class="inst-item">
+                <h3 class="title-footer">INSTITUCIONAL</h5>   
+                <ul class="lista-footer">
+                    <li class="li-footer">
                         <a href="./produtos.html">Produtos</a>
                     </li>
-                    <li class="inst-item">
+                    <li class="li-footer">
                         <a href="./quemsomos.html">Quem somos</a>
                     </li>
-                    <li class="inst-item">
+                    <li class="li-footer">
                         <a href="./faq.html">FAQ (Perguntas Frequentes)</a>
                     </li>
-                    <li class="inst-item">
+                    <li class="li-footer">
                         <a href="./contato.html">Contato</a>
                     </li>
-                    <li class="inst-item">
+                    <li class="li-footer">
                         <a href="./politica-entregas.html">Política de Entregas</a>
                     </li>
-                    <li class="inst-item">
+                    <li class="li-footer">
                         <a href="./politica-privacidade.html">Política de Privacidade</a>
                     </li>
                 </ul>
@@ -230,42 +220,41 @@
 
             <!--CATEGORIAS-->
             <div class="categorias">
-                <h5 class="title-two">CATEGORIAS</h5>
-                <ul class="categorias-menu">
-                    <li class="categ-item">
-                        <a class="link-cat" href="#">Promoções</a>
+                <h3 class="title-footer">CATEGORIAS</h5>
+                <ul class="lista-footer">
+                    <li class="li-footer">
+                        <a href="index.html#frutas">Promoções</a>
                     </li>
-                    <li class="categ-item">
-                        <a class="link-cat" href="#">Nacionais</a>
+                    <li class="li-footer">
+                        <a href="produtos.html#frutas-nacionais">Nacionais</a>
                     </li>
-                    <li class="categ-item">
-                        <a class="link-cat" href="#">Importados</a>
+                    <li class="li-footer">
+                        <a href="produtos.html#frutas-importadas">Importados</a>
                     </li>
                 </ul>
             </div>
 
             <!--ATENDIMENTO-->
             <div class="atendimento">
-                <h5 class="title-third">ATENDIMENTO</h5>
-                <ul class="atendimento-menu">
-                    <div class="email ico">
-                        <img src="Imagens/Home/icons8-nova-mensagem-30 1.png" alt="">
-                        <span>Email: onlyfrutas@gmail.com</span>
-                    </div>
-                    <div class="tel ico">
-                        <img src="./Imagens/Home/icons8-telefone-30 1.png" alt="">
+                <h3 class="title-footer">ATENDIMENTO</h3>
+                <ul class="lista-footer">
+                    <li class="icone">
+                        <img src="Imagens/Home/icons8-nova-mensagem-30 1.png" alt="icone mensagem">
+                        <span>onlyfrutas@gmail.com</span>
+                    </li>
+                    <li class="icone">
+                        <img src="./Imagens/Home/icons8-telefone-30 1.png" alt="icone telefone">
                         <span>+55 86 9519-3998</span>
-                    </div>
-                    <div class="endereço ico">
-                        <img src="./Imagens/Home/icons8-pino-32 1.png" alt="">
+                    </li>
+                    <li class="icone">
+                        <img src="./Imagens/Home/icons8-pino-32 1.png" alt="icone endereço">
                         <span>Rua Morada Nova, 5295 Teresina- PI</span>
-                    </div>
-
+                    </li>
                 </ul>
             </div>
-        </div>
+        </div><!--Roda-pé-->
     </footer>
-    <!--Roda-pé-->
+
 </body>
 
 </html>

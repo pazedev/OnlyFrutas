@@ -1,105 +1,4 @@
-* {
-    font-family: 'PT Serif', 'Roboto';
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    display: center;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    background-color: #F0FEDC;
-}
-
-/*LOGO*/
-header {
-    background-color: #E4FBC1;
-}
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-}
-
-.initial-logo {
-    cursor: pointer;
-}
-
-/*BARRA DE PESQUISA*/
-
-.search {
-    background-color: #86C02E;
-    padding: 20px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-input {
-    border: none;
-    outline: none;
-    background-color: transparent;
-    color: #EBECE9;
-    width: 650px;
-
-    &::placeholder {
-        color: #EBECE9;
-    }
-}
-
-.buy {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-    cursor: pointer;
-}
-
-.buy img {
-    width: 50px;
-}
-
-/*BARRA DE NAVEGAÇÃO*/
-
-.nav-bar {
-
-    background-color: #0D8509;
-    height: 50px;
-
-}
-
-.navbar-nav {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    height: 50px;
-}
-
-.link-nav {
-    text-decoration: none;
-    color: #F0FEDC;
-    font-size: 20px;
-    height: 13px;
-}
-
-.nav-item:hover {
-    background-color: #CDF68F;
-    padding: 10px;
-    border-radius: 4px;
-}
-
-.link-nav:hover {
-    color: #0D8509;
-}
-
-li {
-    padding: 10px;
-}
+@import './global-style.css';
 
 /*BANNER*/
 
@@ -109,17 +8,12 @@ li {
     align-items: center;
 }
 
-.img-left {
+.img-banner {
     transform: scaleX(-1);
-    width: 679px;
-    height: 567px;
+    width: 35%;
+    height: 460px;
     object-fit: cover;
-}
-
-.img-right {
-    width: 679px;
-    height: 567px;
-    object-fit: cover;
+    flex-wrap: wrap;
 }
 
 .main-content-text {
@@ -131,9 +25,14 @@ li {
 }
 
 .main-content-text h1 {
+    width: fit-content;
+    font-family: 'PT Serif';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
     color: #0D8509;
-    font-size: 40px;
-    /*text-align: center;*/
 }
 
 .btn-lg {
@@ -150,8 +49,14 @@ li {
 }
 
 .paragrafo {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
     font-size: 24px;
+    line-height: 28px;
+    text-align: center;
 }
+
 /*CARDS*/
 .cards {
     gap: 30px;
@@ -177,10 +82,16 @@ li {
     box-shadow: 0px 6px 8px #044D02;
 }
 
-.logo-first {
+.logos-card {
     display: flex;
     justify-content: center;
     align-items:first baseline;
+    margin-bottom: 20px;
+}
+
+.logos-card img {
+    width: 60px;
+    height: 60px;
 }
 
 .quali {
@@ -189,13 +100,13 @@ li {
 }
 
 .click-me {
-    text-align: center;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    padding: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
     
 }
 
@@ -228,11 +139,6 @@ li {
     box-shadow: 0px 6px 8px #044D02;
 }
 
-.logo-second {
-    display: flex;
-    justify-content: center;
-    align-items:first baseline;
-}
 
 .frete-gratis {
     text-align: center;
@@ -280,11 +186,6 @@ li {
     border-radius: 3px;
 }
 
-.logo-third {
-    display: flex;
-    justify-content: center;
-    align-items:first baseline;
-}
 
 .entrega {
     text-align: center;
@@ -339,6 +240,7 @@ a .click {
     line-height: 24px;
     color: #0B3F09;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 /*Destaque*/
@@ -434,157 +336,10 @@ a .click {
     color: #0B3F09;
 }
 
-/* .fruit-banana {
-    width: 258px;
-    height: 176px;
-}
-
-.fruit-maracuja {
-    width: 258px;
-    height: 176px;
-}
-
-.fruit-uva {
-    width: 258px;
-    height: 176px;
-} */
-
 .description {
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    min-height: 50px;
-}
-
-
-/*Footer*/
-
-.container-foot {
-    display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    background-color: #0D8509;
-    padding: 30px 10px;
-    margin: 10px 0 0;
-    color: #F0FEDC;
-    font-size: 18px;
-}
-
-.container-foot .p {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    align-items: stretch;
-    font-weight: 400;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #CDF68F;
-}
-
-.container-foot a{
-    color: #CDF68F;
-}
-
-.text-enunce {
-    color: #CDF68F;
-}
-
-.copy {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 80px 0 ;
-    text-align: center;
-    color: #CDF68F;
-}
-
-.institucional .title-one{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    letter-spacing: 3px;
-    margin-bottom: 5px;
-}
-
-.title-one {
-    text-decoration: underline wavy #ACE754;
-}
-
-.institucional-menu {
-    list-style: none;
-}
-
-.link-inst {
-    color: #CDF68F;
-    text-decoration: none;
-}
-
-.institucional-menu li {
-    padding: 1px;
-}
-
-.categorias {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    letter-spacing: 3px;
-    margin-bottom: 5px;
-    flex-direction: column;
-}
-
-.link-cat {
-    color: #CDF68F;
-    text-decoration: none;
-}
-
-.title-two {  
-    text-decoration: underline wavy #ACE754;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    letter-spacing: 3px;
-    margin-bottom: 5px;
-}
-
-.categorias-menu {
-    list-style: none;
-}
-
-.categorias-menu li{
-    padding: 1px;
-}
-
-.atendimento {
-    font-size: 20px;
-}
-
-.title-third {
-    text-decoration: underline wavy #ACE754;
-    margin-bottom: 5px;
-}
-
-.atendimento-menu {
-    color: #CDF68F;
-}
-
-.ico {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.title-third{
-    text-decoration: underline wavy #ACE754;
+    min-height: 40px;
 }

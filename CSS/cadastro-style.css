@@ -3,7 +3,7 @@
 .main-cdt {
     margin: 0;
     background: #86C02E;
-    color: #ebeceb;
+    color: #F0FEDC;
 }
 
 .container1 {
@@ -17,11 +17,19 @@
 .titulo {
     display: flex;
     padding: 20px;
+    margin-top: 40px;
+}
+
+.titulo h1 {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
 }
 .container1 p {
-    display: flex;
     background:#0d8509;
-    border-radius: 15px;
+    border-radius: 8px;
     padding: 10px;
     text-align: center;
     width: 600px;
@@ -39,8 +47,7 @@
     color: #0d8509;
     margin-left: 40px;
     margin-right: 40px;
-    padding: 20px;
-  
+    padding-bottom: 40px;
 }
 
 

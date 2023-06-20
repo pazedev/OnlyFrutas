@@ -11,6 +11,13 @@
     text-align-last: center;   
     margin: 60px;
 
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    color: #0D8509;
+
 }
 
 .img-lg-paragrafo{
@@ -34,6 +41,7 @@ a {
     text-decoration: none;
     color: #ebeceb;
 }
+
 /*botão que vai levar o usuario para pagina FAQ*/
 
 .botao1{
@@ -45,9 +53,9 @@ a {
 }
 
 .botao1:hover{
-    background: #b9ef68;
+    background: rgba(134, 192, 46, 0.9);
     padding: 12px;
-    border:4px solid #86C02E;
+    border: 2px solid #86C02E;
 
 }
 /*formulário*/
@@ -134,9 +142,9 @@ a {
     
 }
 .formulario button:hover {
-    background: #b9ef68;
+    background: rgba(134, 192, 46, 0.9);
     padding: 12px;
-    border: 4px solid #86C02E;
+    border: 2px solid #86C02E;
 
 }
 
@@ -155,8 +163,6 @@ a {
 
 }
 
-
-
 .contato-fundo {
     display: flex;
     justify-content: space-between;
@@ -172,29 +178,36 @@ a {
     display: flex;
     text-align: left;
     flex-direction: column;
+    margin-left: 70px;
+}
+
+.local p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
 }
 
 .contato{
-    
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 365px;
-    height: 100px;
-    text-align: center;
-    align-items: center;
+    gap: 0px 80px;
 }
 
-.Whats{
+.email, .whats{
     display: flex;
     text-align: left;
     flex-direction: column;
 }
 
-.email{
-    display: flex;
-    text-align: left;
-    flex-direction: column;
+.email p, .whats p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000;
 }
 
 .description {
