@@ -48,6 +48,11 @@
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
+.btn-lg:hover {
+    background: rgba(134, 192, 46, 0.9);
+    cursor: pointer;
+}
+
 .paragrafo {
     font-family: 'PT Serif';
     font-style: normal;
@@ -288,6 +293,7 @@ a .click {
     top: 1399px;
     border-radius: 0px 0px 4px 4px;
     gap: 7rem;
+    margin-bottom: 40px;
 }
 
 .prod {
@@ -343,3 +349,4 @@ a .click {
     justify-content: space-between;
     min-height: 40px;
 }
+
