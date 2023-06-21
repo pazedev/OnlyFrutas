@@ -33,6 +33,7 @@
     padding: 10px;
     text-align: center;
     width: 600px;
+    font-size: 17px;
    
 }
 
@@ -59,6 +60,7 @@
     background: #e4fbc1;
     width: 600px;
     height: 348px;
+    
    
 }
 
@@ -70,6 +72,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    
     
     
 }
@@ -87,12 +90,13 @@ font-size: 14 px;
 width: 200px;
 padding: 5px;
 background:#f9fdf4;
-color: #0d8509;
+
 border: #e4fbc1;
 flex-direction: row;
 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
+
 .formulario1 {
     display: flex;
     justify-content: space-between;
@@ -128,6 +132,6 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 .form button:hover{
     background: rgba(134, 192, 46, 0.9);
-    padding: 10px;
+    padding: 12px;
     border: 2px solid #86C02E;
 }
