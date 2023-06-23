@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 
-<html lang="pt-br">
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Contato</title>
+        <title>Cadastro</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./css/contato-style.css">
+        <link rel="stylesheet" href="./css/cadastro-style.css">
     </head>
     
     <body>
@@ -22,7 +22,7 @@
                     </label>
                 </form>
                 <a href="#"><img src="Imagens/cestinha.png" id="iconsLaterais" alt="cestinha"></a>
-                <a href="/cadastro.html"><img src="Imagens/usuario.png" id="iconsLaterais" alt="usuario"></a>
+                <a href="./cadastro.html"><img src="Imagens/usuario.png" id="iconsLaterais" alt="usuario"></a>
             </div>
             <!--Fim Topo-->
         
@@ -48,85 +48,74 @@
             </nav>
             <!--Fim Menu-->
         </header>
-    <!--Menu-->
-    <main>
-        <section class="main-ctt">
-            <div class="container-ctt">
-            <h1>CONTATO</h1>
-        
-            <div class="duvida">
-                <div class="img-lg-paragrafo">
-                    <img src="./Imagens\icone-uva.png" alt="icone de um cacho de uva verde">
-                    <p>Ficou com alguma dúvida <br>sobre nossos serviços?<br> 
-                    <div class="botao1">
-                        <a href="./faq.html">Clique para conferir nosso FAQ!</a></p>
-                    </div>
-                </div>
-            </div> <br>
-            <div class="container2">     
-            <section class="form-ctt">
-            <div class="img-paragrafo">
-                    <img src="./Imagens\icone-uva.png" alt="icone de um cacho de uva verde">
-                    <p>Ou se preferir, nos envie uma mensagem utilizando o<br> 
-                    formulário abaixo. Vamos adorar te ajudar!</p>
+        <main class="main-cdt">
+            <div class="container1">
+
+            <div class="titulo">
+                <h1>Cadastro</h1>
+            </div>
+
+            <div class="paragrafo">
+                <p>Cadastre-se e receba 10% de cashback na sua primeira compra</p>
             </div><br>
-
-                <div class="formulario"            
-                <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype=text/plain">
-                    <div class="informs">
-                    <div class="nome">
-                        <label> Nome*:<br></label>
-                        <input type= "text"placeholder="Digite seu nome" id= nome nome = nome_usuario rows="1" required>
-                    </div>
-                    <div class="email">
-                        <label> E-mail*:<br></label>
-                        <input type= "email" placeholder="Digite seu nome" id=e-mail nome = e-mail_usuario rows="1" required>
-                    </div>
-                   </div>
-
-                    <div class="menssagem">
-                        <label>Mensagem:</label><br>
-                        <textarea id=menssagem nome = menssagem_usuario rows="5" placeholder="Digite sua menssagem" required></textarea>
-                    </div><br>
-                    
-                        <button type="submit">Enviar mensagem</button>
-                    
-
-                </form> 
             </div>
-            </section> 
-      
-            <div class="inform">
-            <div class="contato-fundo">
+            <div class="container2">
 
-            <div class="mapa-link">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63579.60458242401!2d-42.7819008!3d-5.1478528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1684264650218!5m2!1spt-BR!2sbr"
-                    width="200" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>"
-            </div>
+            <div class="imagem">  
+                <img src="Imagens\laptop-at-the-table-with-tea-at-side.jpg" alt="imagem de uma pessoa usando um computador" width="600px" >
+            </div><br>
+ 
+            <div class="form">
+            <div class="header">
+                    <h3>Preencha as informações abaixo</h3>
+            
+            <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype="text/plain">
+                <div class="formulario1">
+                <div class="form-control">
+                    <label for="username">Nome*</label>
+                    <input type="text" id="username" placeholder="Digite seu nome" requered/> 
+                </div>
+            
+                <div class="form-control">
+                    <label for="email">Email*</label>
+                    <input type="email" id="username" placeholder="Digite seu e-mail "requered/>
+                </div>
 
-            <div class="local">
-                <h2>Local</h2>
-                <p> Rua Senador Joaquin Paranagua<br> Nº2095<br>Morada Nova<br> Teresina PI</p>
-            </div>
+                </div>
+                
+                <div class="formulario2">
+                <div class="form-control">
+                    <label for="diaa">Data de nascimento*</label>
+                    <input type="date" id="diaa" nome="diaa" placeholder="Digite sua data de nascimento" requered/>   
+                </div>
 
-            </div>
-            <div class="contato">
-            <div class="whats">
-                <h2>Whatsapp</h2>
-                <p>(86) 99489-8950</p>
-            </div>
 
-            <div class="email"> 
-                <h2>E-mail</h2>
-                <p>onlyfrutas@gmail.com</p>
-            </div>
+                <div class="form-control">
+                    <label for="telefone">Telefone*</label>
+                    <input type="tel " id="telefone" class="input-padrao"  placeholder="(xx) xxxxx-xxxx"required maxlength="11" >
+                </div>
 
+                </div>
+                <div class="formulario2">
+                <div class="form-control">
+                    <label for="senhausuario">Senha*</label>
+                    <input type="password" id="password" placeholder="Senha de no maximo 8 caractere"requerde maxlength="8"/>
+                </div>
+
+               
+                <div class="form-control">
+                    <label for="password-confirmation">Confirmar senha*</label>
+                    <input type="text" id="password-confirmation" placeholder="Confirma senha" requered maxlength="8"/>    
+                </div>
+                </div>
+               <button type="submit">Cadastrar</button>
+            
+            </form>
             </div>
-        </section>
-        </div>
-    </main>
+            </div>
+            </div>
+           
+        </main>
 
 <!--Roda-pé-->
 <footer>
@@ -141,6 +130,7 @@
                 Copyright © 2023 OnlyFrutas. Todos os direitos reservados.
             </p>
         </div>
+           
 
 
         <!--INSTITUCIONAL-->
@@ -208,3 +198,6 @@
 </body>
 
 </html>
+<!--Roda-pé-->
+
+    

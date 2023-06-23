@@ -1,0 +1,137 @@
+@import url('./global-style.css');
+
+.main-cdt {
+    margin: 0;
+    background: #86C02E;
+    color: #F0FEDC;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.titulo {
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.titulo h1 {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+.container1 p {
+    background:#0d8509;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+    font-size: 17px;
+   
+}
+
+/*caixa principal*/
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(rgb(10, 3, 3));
+    color: #0d8509;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+}
+
+
+/*Formulario*/
+
+
+.form{
+    padding:10px;
+    background: #e4fbc1;
+    width: 600px;
+    height: 348px;
+    
+   
+}
+
+.header h3 {
+    display: flex;
+    background: #86C02E;
+    color: #f9fdf4;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    
+    
+    
+}
+
+.form-control{
+    padding: 10px;
+}
+
+
+.form-control input {
+border: 2px solid;
+display: block;
+border-radius:5px;
+font-size: 14 px;
+width: 200px;
+padding: 5px;
+background:#f9fdf4;
+
+border: #e4fbc1;
+flex-direction: row;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.formulario1 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+
+
+}
+.formulario2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+/*Botao do formulario de cadastro*/
+
+.form button {
+    background: #86C02E;
+    border: #86C02E;
+    color: #f9fdf4;
+    font-size: 17px;
+    width: 35%;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    margin-left: 358px;
+    position: relative;
+    
+   
+}
+
+
+.form button:hover{
+    background: rgba(134, 192, 46, 0.9);
+    padding: 12px;
+    border: 2px solid #86C02E;
+}

@@ -1,0 +1,355 @@
+<<<<<<< HEAD
+=======
+@import './global-style.css';
+
+/*BANNER*/
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-banner {
+    transform: scaleX(-1);
+    width: 35%;
+    height: 460px;
+    object-fit: cover;
+    flex-wrap: wrap;
+}
+
+.main-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.main-content-text h1 {
+    width: fit-content;
+    font-family: 'PT Serif';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: center;
+    color: #0D8509;
+}
+
+.btn-lg {
+    background-color: #86C02E;
+    outline: none;
+    border: none;
+    padding: 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 24px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-lg:hover {
+    background: rgba(134, 192, 46, 0.9);
+    cursor: pointer;
+}
+
+.paragrafo {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+/*CARDS*/
+.cards {
+    gap: 30px;
+    padding: 50px;
+}
+
+.sobre-empresa {
+    padding: 33px 25px;
+    
+}
+
+.first-card {
+    background-color: #0D8509;
+    color: #FFFFFF;
+    width: 460px;
+    height: 240px;
+    left: 0px;
+    top: 787px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0px 6px 8px #044D02;
+}
+
+.logos-card {
+    display: flex;
+    justify-content: center;
+    align-items:first baseline;
+    margin-bottom: 20px;
+}
+
+.logos-card img {
+    width: 60px;
+    height: 60px;
+}
+
+.quali {
+    text-align: center;
+
+}
+
+.click-me {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.clicksaiba {
+    text-align: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.clicksaiba:hover {
+    color: #CDF68F;
+    text-decoration: underline;
+}
+
+.frete-empresa {
+    padding: 33px 25px;
+}
+
+.second-card {
+    background-color: #0D8509;
+    color: #FFFFFF;
+    width: 460px;
+    height: 240px;
+    left: 0px;
+    top: 787px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0px 6px 8px #044D02;
+}
+
+
+.frete-gratis {
+    text-align: center;
+
+}
+
+.third-card {
+    background-color: #0D8509;
+    color: #FFFFFF;
+    width: 460px;
+    height: 240px;
+    left: 0px;
+    top: 787px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0px 6px 8px #044D02;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.entrega-the {
+    padding: 33px 25px;
+}
+
+.entrega-the {
+    padding: 33px 25px;
+}
+
+.third-card {
+    background-color: #0D8509;
+    color: #FFFFFF;
+    width: 460px;
+    height: 240px;
+    left: 0px;
+    top: 787px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+
+.entrega {
+    text-align: center;
+}
+
+a .click {
+    align-items: center;
+}
+
+/*Frase-Meio*/
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 2%;
+    border-radius: 10px;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.frase {
+    color: #679227;
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.text-cor {
+    font-family: 'PT Serif';
+    font-weight: 700;
+    font-style: italic;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #0B3F09;
+}
+
+.henry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #0B3F09;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*Destaque*/
+
+.frutas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.frutas-destaque {
+    width: 1185px;
+    height: 90px;
+    left: 130px;
+    top: 1309px;
+    background: #CDF68F;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.frutas-destacadas {
+    color: #0B3F09;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.produtos {
+    background: #E4FBC1;
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1183px;
+    height: 286px;
+    left: 132px;
+    top: 1399px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 7rem;
+    margin-bottom: 40px;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod img {
+    border-radius: 5px;
+    width: 258px;
+    height: 176px;
+}
+
+.cestinha-prod {
+    position: relative;
+}
+
+.cestinha-img {
+    position: absolute;
+    right: 1px;
+    bottom: 5px; 
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
+.prod .name {
+    color: #0EB409;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.prod .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #0B3F09;
+}
+
+.description {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 40px;
+}
+
+>>>>>>> dec02e5cb7a7e00050518a903da67b5f4f74b1eb
