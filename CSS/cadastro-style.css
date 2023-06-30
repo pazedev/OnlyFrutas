@@ -4,6 +4,7 @@
     margin: 0;
     background: #86C02E;
     color: #F0FEDC;
+    
 }
 
 .container1 {
@@ -12,15 +13,14 @@
     align-items: center;
     flex-direction: column;
     
-}
+    }
+    
 
-.titulo {
+
+.titulo h1 {
     display: flex;
     padding: 20px;
     margin-top: 40px;
-}
-
-.titulo h1 {
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
@@ -35,20 +35,20 @@
     width: 600px;
     font-size: 17px;
    
+   
 }
 
 /*caixa principal*/
 
 .container2 {
     display: flex;
-    flex-direction: row;
-    padding: 20px;
+    background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
     border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(rgb(10, 3, 3));
     color: #0d8509;
     margin-left: 40px;
     margin-right: 40px;
     padding-bottom: 50px;
+    
 }
 
 
@@ -56,12 +56,17 @@
 
 
 .form{
-    padding:10px;
+    display: flex;
+    align-items: center;
     background: #e4fbc1;
-    width: 600px;
+    padding:10px;
+    width: 800px;
     height: 348px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-top: 50px;
+    border-radius: 20PX;
     
-   
 }
 
 .header h3 {
@@ -72,9 +77,40 @@
     align-items: center;
     justify-content: center;
     border-radius: 10px;
+    width: 500px;  
+    margin-left: 135px; 
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    height: 320px;
+    margin-left: 45px;
     
+      
+}
+
+.form1 {
+    display: flex;
+}
+
+.form2 {
+    display: flex;
     
+    height: 60px;
+}
+
+.form3 {
+    display: flex;
+    height: 60px;
     
+}
+
+.form4{
+    display: flex;
+    height: 60px;
 }
 
 .form-control{
@@ -90,31 +126,17 @@ font-size: 14 px;
 width: 200px;
 padding: 5px;
 background:#f9fdf4;
-
 border: #e4fbc1;
 flex-direction: row;
 box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
-.formulario1 {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-    padding: 10px;
-
-
-}
-.formulario2 {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 10px;
-    padding: 10px;
-}
 
 /*Botao do formulario de cadastro*/
 
 .form button {
+    margin: 20px;
     background: #86C02E;
     border: #86C02E;
     color: #f9fdf4;
@@ -123,7 +145,7 @@ box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     padding: 12px;
     text-align: center;
-    margin-left: 358px;
+    margin-left: 223px;
     position: relative;
     
    
