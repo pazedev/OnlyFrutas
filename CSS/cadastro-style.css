@@ -57,8 +57,6 @@
 
 .form{
     display: flex;
-    align-items: center;
-    background: #e4fbc1;
     padding:10px;
     width: 800px;
     height: 348px;
@@ -66,10 +64,11 @@
     margin-right: 225px;
     margin-top: 50px;
     border-radius: 20PX;
+    filter: blur(60%);
     
 }
 
-.header h3 {
+.formulario h3 {
     display: flex;
     background: #86C02E;
     color: #f9fdf4;
@@ -78,16 +77,20 @@
     justify-content: center;
     border-radius: 10px;
     width: 500px;  
-    margin-left: 135px; 
+    
+    margin-left: 85px; 
 }
 
 .formulario {
     display: flex;
     align-items: center;
     flex-direction: column;
+    border-radius: 20px;
     width: 700px;
-    height: 320px;
+    height: 360px;
     margin-left: 45px;
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
     
       
 }
@@ -115,6 +118,11 @@
 
 .form-control{
     padding: 10px;
+}
+.form-control label{
+    text-shadow: #010d01 0.8px 0.8px ;
+    font-weight: bold;
+    font-size: medium;
 }
 
 
