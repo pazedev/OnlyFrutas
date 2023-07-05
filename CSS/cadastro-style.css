@@ -108,7 +108,7 @@
 .form3 {
     display: flex;
     height: 60px;
-    
+  
 }
 
 .form4{
@@ -127,16 +127,16 @@
 
 
 .form-control input {
-border: 2px solid;
-display: block;
-border-radius:5px;
-font-size: 14 px;
-width: 200px;
-padding: 5px;
-background:#f9fdf4;
-border: #e4fbc1;
-flex-direction: row;
-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 2px solid;
+    display: block;
+    border-radius:5px;
+    font-size: 14 px;
+    width: 200px;
+    padding: 5px;
+    background:#f9fdf4;
+    border: #e4fbc1;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
