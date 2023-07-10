@@ -1,7 +1,5 @@
 @import url('./global-style.css');
 
-/*FRUTAS */
-
 .frutas-destaque {
     display: flex;
     justify-content: center;
@@ -13,6 +11,7 @@
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
+
 .frutas-bg {
     display: flex;
     justify-content: center;
@@ -20,28 +19,8 @@
     position: relative;
 }
 
-.frutas-bg::after {
-    content: '';
-    background-image: url('/Imagens/produtos/seta-dir.svg');
-    background-size: 30px;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-left: 1000px;
-}
-
-.frutas-bg::before {
-    content: '';
-    background-image: url('/Imagens/produtos/seta-esq.svg');
-    background-size: 30px;
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    margin-right: 1000px;
-}
-
 .title-frutas {
-    background: #CDF68F;
+    background: #E4FBC1;
     color: #0B3F09;
     width: 100%;
     text-align: center;
@@ -104,7 +83,7 @@
     font-size: 16px;
     text-align: right;
     color: #0B3F09;
-}
+} 
 
 /* CARDS */
 .cards-produtos {

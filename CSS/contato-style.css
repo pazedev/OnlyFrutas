@@ -1,12 +1,10 @@
 @import url('./global-style.css');
 .main-ctt{
-
-   display: flex;
-   color: #0D8509;
-   justify-content: space-between;
-  
-  
-}
+    display: flex;
+    color: #0D8509;
+    justify-content: space-between;
+   
+ }
 .container-ctt h1{
     text-align-last: center;   
     margin: 60px;
@@ -215,78 +213,4 @@ a {
         justify-content: center;
         gap: 1rem;
         min-height: 50px;
-}
-
-    /*footer*/
-
-footer {
-    background-color: #0D8509;
-    padding: 40px 80px;
-    font-size: 14px;
-    color: #F0FEDC;
-
-}
-
-.container-foot {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.container-foot a {
-    color: #CDF68F;
-    text-decoration: none;
-}
-
-.text-enunce {
-    margin-top: 20px;
-}
-
-.text-copy {
-    margin-top: 20px;
-    font-weight: bold;
-}
-
-.title-footer {
-    font-size: 16px;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.title-footer::before {
-    content: '';
-    background-image: url('/Imagens/footer/decorativo-footer.svg');
-    display: inline-block;
-    position: absolute;
-    height: 8px;
-    width: 24px;
-    background-color: transparent;
-    margin: 25px 0px;
-
-}
-
-.lista-footer {
-    list-style: none;
-}
-
-.li-footer {
-    padding: 6px 0px;
-}
-
-.icone {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 4px;
-    padding: 6px 0px;
-    color: #CDF68F;
-}
-
-.lista-footer span {
-    padding-left: 2px;
-}
-
-.lista-footer img {
-    height: 20px;
 }
