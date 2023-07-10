@@ -25,7 +25,8 @@ controlsN.forEach((controlN) => {
 
     itemsN[currentItemN].scrollIntoView({
       behavior: "smooth",
-      inline: "center"
+      inline: "center",
+      block: "nearest"
     });
 
     itemsN[currentItemN].classList.add("current-itemN");
@@ -35,33 +36,34 @@ controlsN.forEach((controlN) => {
 const controlsI = document.querySelectorAll(".controlI");
 let currentItemI = 0;
 const itemsI = document.querySelectorAll(".itemI");
-const maxItemsI = items.length;
+const maxItemsI = itemsI.length;
 
 controlsI.forEach((controlI) => {
   controlI.addEventListener("click", (e) => {
     isLeft = e.target.classList.contains("arrow-left");
 
     if (isLeft) {
-      currentItem -= 1;
+      currentItemI -= 1;
     } else {
-      currentItem += 1;
+      currentItemI += 1;
     }
 
-    if (currentItem >= maxItems) {
-      currentItem = 0;
+    if (currentItemI >= maxItemsI) {
+      currentItemI = 0;
     }
 
-    if (currentItem < 0) {
-      currentItem = maxItems - 1;
+    if (currentItemI < 0) {
+      currentItemI = maxItemsI - 1;
     }
 
-    items.forEach((item) => item.classList.remove("current-item"));
+    itemsI.forEach((item) => item.classList.remove("current-itemI"));
 
-    items[currentItem].scrollIntoView({
+    itemsI[currentItemI].scrollIntoView({
       behavior: "smooth",
-      inline: "center"
+      inline: "center",
+      block: "nearest"
     });
 
-    items[currentItem].classList.add("current-item");
+    itemsI[currentItemI].classList.add("current-itemI");
   });
 });

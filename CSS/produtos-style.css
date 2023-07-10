@@ -32,7 +32,7 @@
 }
 
 .title-frutas {
-    background: #E4FBC1;
+    background: #CDF68F;
     color: #0B3F09;
     width: 100%;
     text-align: center;
@@ -49,16 +49,17 @@
     color: #0B3F09;
 }
 
-
 .frutas {
     display: flex;
     flex-flow: row nowrap;
     gap: 40px;
 }
 
-.produto {
+.itemN img, .itemI img {
     width: 250px;
-    height: 150px;
+    height: 170px;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.20);
+    margin-bottom: 4px;
 }
 
 .arrow-left,
@@ -72,7 +73,7 @@
   border: none;
   transition: all 600ms ease-in-out;
   background: transparent;
-  opacity: 0.7;
+  opacity: 0.6;
   cursor: pointer;
 }
 
@@ -88,38 +89,28 @@
   opacity: 1;
 }
 
-.produto::after {
-    content: '';
-    background-image: url('/Imagens/cestinha.png');
-    background-size: 30px;
-    display: inline-block;
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    background-color: transparent;
-    margin: 108px -32px;
-}
 
-.destaque-descritivo {
+.subtitulo-prod {
     display: flex;
     justify-content: space-between;
-    margin: 0px 60px 40px 60px;
 }
 
-.destaque-descritivo h3 {
+.subtitulo-prod p:first-child {
     font-family: 'Roboto';
-    font-weight: 400;
+    font-weight: 500;
     font-size: 16px;
     color: rgba(14, 180, 9, 0.95);
+    text-transform: uppercase;
 }
 
-.destaque-descritivo p {
+.subtitulo-prod p:last-child {
     font-family: 'Roboto';
     font-weight: bold;
     font-size: 16px;
     text-align: right;
     color: #0B3F09;
 } 
+
 
 /* CARDS */
 .cards-produtos {
