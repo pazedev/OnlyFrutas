@@ -1,0 +1,50 @@
+@import url('./global-style.css');
+.login-lg {
+    background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
+    height: 500px;
+    
+    position: relative;
+    
+}
+
+
+.formulario {
+    display: flex;
+    position: absolute;
+    margin-left: 32%;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background: #e4fbc1;
+    align-items: center;
+    
+   
+}
+.titulo {
+    text-align: center;
+    color: #0D8509;
+    font-size: 25px;
+}
+.btn{
+   
+    padding: 6px;
+    color: #f9fdf4;
+    background: #86C02E;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+
+.formulario label {
+    margin-top: 10px;
+}
+.formulario input{
+    color: #0D8509;
+    background: #f9fdf4;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+}

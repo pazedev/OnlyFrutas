@@ -5,16 +5,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Cadastro</title>
+    <title>login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="./css/cadastro-style.css">
-    
-    
+    <link rel="stylesheet" href="./css/login-style.css">
+    <script src="./script.js/cadastro.js" defer></script>
 </head>
 
 <body>
-    
     <header>
         <!--Topo-->
         <div class="content">
@@ -26,7 +24,7 @@
                 </label>
             </form>
             <a href="#"><img src="Imagens/cestinha.png" id="iconsLaterais" alt="cestinha"></a>
-            <a href="/cadastro.html"><img src="Imagens/usuario.png" id="iconsLaterais" alt="usuario"></a>
+            <a href="/login.html"><img src="Imagens/usuario.png" id="iconsLaterais" alt="usuario"></a>
         </div>
         <!--Fim Topo-->
 
@@ -52,105 +50,45 @@
         </nav>
         <!--Fim Menu-->
     </header>
-        <main class="main-cdt">
-            <div class="container1">
+    <!--Menu-->
 
-            <div class="titulo">
-                <h1>Criar conta</h1>
+<main class="login-lg">
+    <section class="formulario">
+        <div class=titulo>
+            <H2>Login</H2>
+        </div>
+      
+        <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype=text/plain"></form>
+            <div class="email">
+                <label for="email">Email</label><br>
+                <input type="text" id="email" placeholder="Digite seu nome"  nome=e-mail_usuario rows="1" required>
+                <small id="textEmail"></small>
             </div>
 
-            <div class="paragrafo">
-                <p>Crie sua conta e receba 10% de cashback na sua primeira compra</p>
-            </div><br>
-            </div>
-            <div class="container2">
- 
-            <div class="form">
-            <div class="formulario">
-            <div class="header">
-                    <h3>Preencha as informações abaixo</h3>
-           
-            <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype="text/plain">
-                <div class="form1">
-                <div class="form-control">
-                    <label for="username">Nome *</label>
-                    <input type="text" id="username" placeholder="Digite seu nome" requered/> 
-                    
-                </div>
-
-                <div class="form-control">
-                    <label for="name">Sobrenome*</label>
-                    <input type="text" id="name" placeholder="Digite seu sobrenome" required >
+            <div class="senha">
+                    <label for="password">Senha</label><br>
+                    <input  type="password" id="password" name="password" placeholder="Digite sua senha" autocomplete="current-password" aria-describedby="password-constraints"  required>
+                    <small id="textPassword"></small>
                 </div>
             
-                <div class="form-control">
-                    <label for="diaa">Data de nascimento*</label>
-                    <input type="date" id="diaa"  requered >
-                </div>
-                </div>
-                <div class="form2">
-                <div class="form-control">
-                    <label for="telefone">Whatsapp*</label>
-                    <input type="tel " id="telefone" class="input-padrao"  placeholder="(xx) xxxxx-xxxx" pattern="/^\(\d{2}\)\d{4,5-}-\d{4}$"/ required>
-                </div>
-                
-                <div class="form-control">
-                    <label for="cep">CEP*</label>
-                    <input type="text" id="cep" maxlength="9" placeholder="13.483-000" ><br><br>
-                </div>
 
-                <div class="form-control">
-                    <label for="cidade">Cidade*</label>
-                    <input type="text" id="cidade" placeholder="Cidede onde mora"><br>
-                </div>
-                </div>
-
-                <div class="form3">
-                <div class="form-control">
-                    <label for="bairro">Bairro*</label>
-                    <input type="text" id="bairro" placeholder="Bairro"><br>
-                </div>
-
-                <div class="form-control">
-                    <label for="endereço">Endereço*</label>
-                    <input type="text" id="endereco" placeholder="Endereço">
-                </div>
-                
-                <div class="form-control">
-                    <label for="complemento">Complemento*</label>
-                    <input type="text" id="complemento" placeholder="(opcional)">
-                </div>
-                </div>
-                
-                
-                <div class="form4">
-                <div class="form-control">
-                    <label for="email">Email*</label>
-                    <input type="email" id="email" placeholder="Digite seu e-mail " required />
-                </div>
-
-                <div class="form-control">
-                    <label for="senhausuario">Senha*</label>
-                    <input type="password" id="password" placeholder="Senha de no maximo 8 caractere"requerde maxlength="8">
-                </div>
-
-               
-                <div class="form-control">
-                    <label for="password-confirmation">Confirmar senha*</label>
-                    <input type="text" id="password-confirmation" placeholder="Confirma senha" requered maxlength="8">    
-                </div>
-                </div>
-
-               <button type="submit" id="button" >Criar conta</button>
-           
-            </form>
+            <div class="form-link">
+                <a href="#" class="forgot-password">Esqueci minha senha</a><br>
             </div>
-            </div>
-            </div>
-            </div>
-           
-        </main>
 
+            
+            <button type="submit" class="btn">Login</button>
+            
+            <div class="form-link">
+                <span>Ainda não possuo conta: <a class="link-conta" href="./cadastro.html">Criar conta</a> </span>
+            </div>
+            
+            
+        </form>
+    </section>
+   
+
+</main>
 <!--Roda-pé-->
 <footer>
     <!--Roda-pé-->
@@ -164,7 +102,7 @@
                 Copyright © 2023 OnlyFrutas. Todos os direitos reservados.
             </p>
         </div>
-           
+
 
 
         <!--INSTITUCIONAL-->
@@ -233,5 +171,3 @@
 
 </html>
 <!--Roda-pé-->
-
-    

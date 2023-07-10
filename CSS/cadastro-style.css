@@ -126,7 +126,7 @@
 }
 
 
-.form-control input {
+input {
     border: 2px solid;
     display: block;
     border-radius:5px;
@@ -135,15 +135,27 @@
     padding: 5px;
     background:#f9fdf4;
     border: #e4fbc1;
+    color: #0d8509;
+    
+    font-size: 17px;
     flex-direction: row;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 
 }
 
+.errorInputn{
+    border: 2px solid #e12a0a !important;
+}
+.corretInput{
+    border: 2px solid #5ff95a!important;
+}
+
+
+
 
 /*Botao do formulario de cadastro*/
 
-.form button {
+button {
     margin: 20px;
     background: #86C02E;
     border: #86C02E;
@@ -160,7 +172,7 @@
 }
 
 
-.form button:hover{
+button:hover{
     background: rgba(134, 192, 46, 0.9);
     padding: 12px;
     border: 2px solid #86C02E;
