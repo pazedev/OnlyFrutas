@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="CSS/produtos-style.css">
 
     <!--JAVASCRIPT-->
-    <script src="./JS/produtos-script.js"></script>
+    <script src="./JS/produtos-script.js" defer></script>
 
     <title>Produtos</title>
 </head>
@@ -71,20 +71,23 @@
                 <h2>NACIONAIS</h2>
             </div>    
             <DIV class="frutas-bg">
-                <button><img src="./Imagens/produtos/seta-esq.svg"></button>
+                <button class="arrow-left controlN" aria-label="Voltar Imagem"><img src="./Imagens/produtos/seta-esq.svg"></button>
+                <button class="arrow-right controlN" aria-label="Avançar Imagem"><img src="./Imagens/produtos/seta-dir.svg"></button>
+                
+                <div class="frutas-rolagem">
+                    <div class="frutas">
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemN current-itemN">
 
-                <div class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/melancia.png" alt="Melancia">
-                    </div>
-                    <div class="destaque-descritivo">
-                        <h3>MELANCIA</h3>
-                        <p>1kg</p>
-                        <p>R$ 02,99</p>
+                            <img src="./Imagens/produtos/laranja" alt="Laranja" class="itemN current-item">
+                        
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemN current-itemN">
+
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemN current-itemN">
+                    
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemN current-itemN">
                     </div>
                 </div>
-                <button><img src="./Imagens/produtos/seta-dir.svg"></button>
-            </div>
+            </DIV>
         </div>
     </section>
     <!--Seção Nacionais-->
@@ -96,33 +99,22 @@
                 <h2>IMPORTADAS</h2>
             </div>
             <DIV class="frutas-bg">
-                <DIV class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/pitaya.png" alt="Pitaya">
+                <button class="arrow-left controlI" aria-label="Voltar Imagem"><img src="./Imagens/produtos/seta-esq.svg"></button>
+                <button class="arrow-right controlI" aria-label="Avançar Imagem"><img src="./Imagens/produtos/seta-dir.svg"></button>
+                
+                <div class="frutas-rolagem">
+                    <div class="frutas">
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemI current-itemI">
+
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemI current-itemI">
+                        
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemI current-itemI">
+
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemI current-itemI">
+                    
+                            <img src="./Imagens/produtos/melancia.png" alt="Melancia" class="itemI current-itemI">
                     </div>
-                    <div class="destaque-descritivo">
-                        <h3>PITAYA - 500G</h3>
-                        <p>R$ 14,99</p>
-                    </div>
-                </DIV>
-                <DIV class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/morango.png" alt="Morango">
-                    </div>
-                    <div class="destaque-descritivo">
-                        <h3>MORANGO - cartela</h3>
-                        <p>R$ 11,99</p>
-                    </div>
-                </DIV>
-                <DIV class="frutas">
-                    <div class="destaque-foto">
-                        <img src="./Imagens/produtos/Kiwi.png" alt="Kiwi">
-                    </div>
-                    <div class="destaque-descritivo">
-                        <h3>KIWI - 500g</h3>
-                        <p>R$ 12,99</p>
-                    </div>
-                </DIV>
+                </div>
             </DIV>
         </div>
     </section>

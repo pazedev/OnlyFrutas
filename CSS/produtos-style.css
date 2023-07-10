@@ -11,12 +11,24 @@
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
 }
 
-
 .frutas-bg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     position: relative;
+    padding: 40px 60px;
+    max-width: 860px;
+    margin: 0 auto;
+}
+
+.frutas-rolagem {
+    overflow-x: auto;
+}
+
+/* Esconder scroll bar em diferentes navegadores*/
+.frutas-rolagem::-webkit-scrollbar {
+    display: none; /*Chrome*/
+  }
+.frutas-rolagem {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;/* Firefox*/
 }
 
 .title-frutas {
@@ -37,22 +49,46 @@
     color: #0B3F09;
 }
 
+
 .frutas {
     display: flex;
-    flex-direction: column;
+    flex-flow: row nowrap;
+    gap: 40px;
 }
 
-.frutas img {
-    width: 210px;
-    height: 140px;
+.produto {
+    width: 250px;
+    height: 150px;
 }
 
-.destaque-foto {
-    margin: 40px 60px 0px 60px;
-    position: relative;
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  cursor: pointer;
+  border: none;
+  transition: all 600ms ease-in-out;
+  background: transparent;
+  opacity: 0.7;
+  cursor: pointer;
 }
 
-.destaque-foto::after {
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: transparent;
+  }
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+.produto::after {
     content: '';
     background-image: url('/Imagens/cestinha.png');
     background-size: 30px;
