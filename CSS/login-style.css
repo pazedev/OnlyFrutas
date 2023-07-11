@@ -1,8 +1,9 @@
 @import url('./global-style.css');
+
+
 .login-lg {
     background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
     height: 500px;
-    
     position: relative;
     
 }
@@ -12,6 +13,7 @@
     display: flex;
     position: absolute;
     margin-left: 32%;
+    margin-top: 75px ;
     flex-direction: column;
     height: 300px;
     width: 300px;
@@ -27,19 +29,12 @@
     color: #0D8509;
     font-size: 25px;
 }
-.btn{
-   
-    padding: 6px;
-    color: #f9fdf4;
-    background: #86C02E;
-    width: 150px;
-    border-radius: 10px;
-    font-size: 20px;
-    margin: 10px 10px;
-}
+
+
 
 .formulario label {
-    margin-top: 10px;
+    
+    color: #0D8509;
 }
 .formulario input{
     color: #0D8509;
@@ -47,4 +42,33 @@
     width: 180px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: #0D8509;
+}
+ button {
+
+    padding: 6px;
+    color: #f9fdf4;
+    background: #86C02E;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+    border: 2px solid #86C02E;
+}
+button:hover {
+    background: rgba(134, 192, 46, 0.9);
+    padding: 8px;
+    border: 2px solid #86C02E;
+}
+
+span{
+    text-decoration: none;
+    color: #0D8509;
+}
+.errorInput {
+    border: 2px solid #e12a0a !important;
 }
