@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/cadastro-style.css">
-    <script src="./JS/cadastro-script.js" defer></script>
+    <script src="./JS/cadastro-script.js" defer ></script>
 
 </head>
 
@@ -72,52 +72,52 @@
             <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype="text/plain">
                 <div class="form1">
                 <div class="form-control">
-                    <label for="username">Nome *</label>
-                    <input type="text" id="username" placeholder="Digite seu nome" requered/> 
+                    <label for="username">Nome*</label>
+                    <input type="text" class="name" id="username" placeholder="Digite seu nome" requered/> 
                     
                 </div>
 
                 <div class="form-control">
                     <label for="name">Sobrenome*</label>
-                    <input type="text" id="name" placeholder="Digite seu sobrenome" required >
+                    <input type="text" class="sobreNome"id="name" placeholder="Digite seu sobrenome" required >
                 </div>
             
                 <div class="form-control">
                     <label for="diaa">Data de nascimento*</label>
-                    <input type="date" id="diaa"  requered >
+                    <input type="date" class="data"id="diaa"  requered >
                 </div>
                 </div>
                 <div class="form2">
                 <div class="form-control">
                     <label for="telefone">Whatsapp*</label>
-                    <input type="tel " id="telefone" class="input-padrao"  placeholder="(xx) xxxxx-xxxx" pattern="/^\(\d{2}\)\d{4,5-}-\d{4}$"/ required>
+                    <input type="tel "class="tel" id="telefone" class="input-padrao"  placeholder="(xx) xxxxx-xxxx"  required>
                 </div>
                 
                 <div class="form-control">
                     <label for="cep">CEP*</label>
-                    <input type="text" id="cep" maxlength="9" placeholder="13.483-000" ><br><br>
+                    <input type="text" class="cep"id="cep" maxlength="9" placeholder="13.483-000" ><br><br>
                 </div>
 
                 <div class="form-control">
                     <label for="cidade">Cidade*</label>
-                    <input type="text" id="cidade" placeholder="Cidede onde mora"><br>
+                    <input type="text" class="cidade"id="cidade" placeholder="Cidede onde mora"><br>
                 </div>
                 </div>
 
                 <div class="form3">
                 <div class="form-control">
                     <label for="bairro">Bairro*</label>
-                    <input type="text" id="bairro" placeholder="Bairro"><br>
+                    <input type="text" class="bairro"id="bairro" placeholder="Bairro"><br>
                 </div>
 
                 <div class="form-control">
                     <label for="endereço">Endereço*</label>
-                    <input type="text" id="endereco" placeholder="Endereço">
+                    <input type="text"class="endereço" id="endereco" placeholder="Endereço">
                 </div>
                 
                 <div class="form-control">
-                    <label for="complemento">Complemento*</label>
-                    <input type="text" id="complemento" placeholder="(opcional)">
+                    <label for="complemento">Complemento</label>
+                    <input type="text"class="complemento" id="complemento" placeholder="(opcional)">
                 </div>
                 </div>
                 
@@ -125,18 +125,18 @@
                 <div class="form4">
                 <div class="form-control">
                     <label for="email">Email*</label>
-                    <input type="email" id="email" placeholder="Digite seu e-mail " required />
+                    <input type="email" class="email" id="email" placeholder="Digite seu e-mail " required />
                 </div>
 
                 <div class="form-control">
                     <label for="senhausuario">Senha*</label>
-                    <input type="password" id="password" placeholder="Senha de no maximo 8 caractere"requerde maxlength="8">
+                    <input type="password" class="senha"id="password" placeholder="Senha de no maximo 8 caractere"requerde maxlength="8">
                 </div>
 
                
                 <div class="form-control">
                     <label for="password-confirmation">Confirmar senha*</label>
-                    <input type="text" id="password-confirmation" placeholder="Confirma senha" requered maxlength="8">    
+                    <input type="text"class="confSenha" id="password-confirmation" placeholder="Confirma senha" requered maxlength="8">    
                 </div>
                 </div>
 
@@ -227,7 +227,7 @@
         </div>
     </div><!--Roda-pé-->
 </footer>
-<script src="js/cadastro-style.js"></script>
+
 </body>
 
 </html>

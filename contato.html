@@ -8,6 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./css/contato-style.css">
+        <script src="./JS/contato-script.js" defer></script>
     </head>
     
     <body>
@@ -72,25 +73,25 @@
                         formulário abaixo. Vamos adorar te ajudar!</p>
                 </div><br>
 
-                    <div class="formulario"            
-                    <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype=text/plain">
+                    <div class="formulario">
+                    <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype="text/plain">
                         <div class="informs">
-                        <div class="nome">
+                        <div class="FormNome">
                             <label> Nome*:<br></label>
-                            <input type= "text"placeholder="Digite seu nome" id= nome nome = nome_usuario rows="1" required>
+                            <input type= "text"placeholder="Digite seu nome" id="nome" nome = nome_usuario required>
                         </div>
-                        <div class="email">
+                        <div class="formEmail">
                             <label> E-mail*:<br></label>
-                            <input type= "email" placeholder="Digite seu nome" id=e-mail nome = e-mail_usuario rows="1" required>
+                            <input type= "email" placeholder="Digite seu email" id="email" nome = e-mail_usuario rows="1" required>
                         </div>
                     </div>
 
                         <div class="menssagem">
-                            <label>Mensagem:</label><br>
-                            <textarea id=menssagem nome = menssagem_usuario rows="5" placeholder="Digite sua menssagem" required></textarea>
+                            <label>Menssagem:</label><br>
+                            <textarea id="menssagem" nome = menssagem_usuario rows="5" placeholder="Digite sua menssagem" required></textarea>
                         </div><br>
                         
-                            <button type="submit">Enviar mensagem</button>
+                            <button type="submit" id="button">Enviar mensagem</button>
                         
 
                     </form> 

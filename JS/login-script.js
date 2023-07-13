@@ -29,10 +29,11 @@ senha.addEventListener('input', function (event){
      }
     
 
-    else if (!value.includes ('#')  ){
+    else if (value.includes -2){
        senha.classList.add('errorInput')
 
        }else {senha.classList.remove('errorInput')
     } 
+    
 }) 
 

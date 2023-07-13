@@ -124,7 +124,7 @@ a {
    
 }
 
-.formulario button {
+ button {
     background: #86C02E;
     border: #86C02E;
     color: #ebeceb;
@@ -138,7 +138,7 @@ a {
 
     
 }
-.formulario button:hover {
+ button:hover {
     background: rgba(134, 192, 46, 0.9);
     padding: 12px;
     border: 2px solid #86C02E;
@@ -214,3 +214,6 @@ a {
         gap: 1rem;
         min-height: 50px;
 }
+.errorInput {
+    border: 2px solid #e12a0a !important;
+} 
