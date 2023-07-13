@@ -46,3 +46,16 @@ nextButtons.forEach((button) => {
 carouselContainers.forEach((container) => {
     toggleCarouselImages(container, 'next');
 });
+
+
+const logoCards = document.querySelectorAll('.logos-card');
+
+logoCards.forEach((card) => {
+    card.addEventListener('mouseover', () => {
+        card.classList.add('rotate');
+    });
+
+    card.addEventListener('mouseout', () => {
+        card.classList.remove('rotate');
+    });
+});
