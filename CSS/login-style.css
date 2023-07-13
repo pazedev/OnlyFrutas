@@ -7,7 +7,17 @@
     position: relative;
     
 }
+.usuario-img {
+    display: flex;
+    flex-direction: column;
 
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
 
 .formulario {
     display: flex;
