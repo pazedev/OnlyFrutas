@@ -51,6 +51,12 @@
 .btn-lg:hover {
     background: rgba(134, 192, 46, 0.9);
     cursor: pointer;
+    
+}
+
+.btn-lg:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .paragrafo {
@@ -66,7 +72,19 @@
 .cards {
     gap: 30px;
     padding: 50px;
+
+    
 }
+
+
+.logos-card img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logos-card:hover img {
+    transform: rotate(360deg);
+}
+
 
 .sobre-empresa {
     padding: 33px 25px;
@@ -85,6 +103,11 @@
     align-items: center;
     border-radius: 3px;
     box-shadow: 0px 6px 8px #044D02;
+}
+
+.first-card:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .logos-card {
@@ -144,6 +167,11 @@
     box-shadow: 0px 6px 8px #044D02;
 }
 
+.second-card:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
 
 .frete-gratis {
     text-align: center;
@@ -162,6 +190,11 @@
     align-items: center;
     border-radius: 3px;
     box-shadow: 0px 6px 8px #044D02;
+}
+
+.third-card:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .cards {
@@ -349,4 +382,3 @@ a .click {
     justify-content: space-between;
     min-height: 40px;
 }
-
