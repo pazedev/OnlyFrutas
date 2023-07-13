@@ -28,14 +28,6 @@
     flex-direction: column;
 
 }
-a {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    
-    
-
-}
 
 .main-content-text h1 {
     width: fit-content;
@@ -350,24 +342,7 @@ a .click {
     flex-flow: row nowrap;
     gap: 40px;
 }
-@media screen and (max-width:768px){
-    .container {
-        display:block ;
-        background-image: none;    
-}
 
-.container_imagem{
-    width: 50vw;
-
-}
-
-.container_caixa{
-    margin: 2em 2em;
-}
-.secundario{
-    margin: 0;
-}
-}
 .itemD img {
     width: 250px;
     height: 170px;
