@@ -17,8 +17,14 @@
         href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&family=Poppins:ital,wght@0,300;0,500;0,600;1,300;1,500;1,600&family=Roboto+Condensed:wght@400;700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
     <link rel="stylesheet" href="CSS/home-style.css">
-   
+
+    <!--JAVASCRIPT-->
+    <script src="./JS/index.js" defer></script>
+
+
     <title>Only-Frutas</title>
 </head>
 
@@ -137,50 +143,71 @@
         <!--Texto do Meio-->
 
         <!--Frutas em Destaque-->
-        <section class="frutas">
+        <section id="frutas-destaque">
             <div class="frutas-destaque">
-                <h1 class="frutas-destacadas">
-                    FRUTAS EM DESTAQUE
-                </h1>
-            </div>
-            <div class="produtos">
-
-                <div class="prod">
-                    <div class="cestinha-prod">
-                        <img class="fruit-banana" src="Imagens/Home/banana.jpg" alt="">
-                        <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
-                    </div>
-                    <div class="description">
-                        <span class="name">BANANA PRATA - 1kg</span>
-                        <span class="price">R$ 05,99</span>
-                    </div>
+                <div class="title-frutas">
+                    <h2>IMPORTADAS</h2>
                 </div>
-
-                <div class="prod">
-                    <div class="cestinha-prod">
-                        <img class="fruit-maracuja" src="Imagens/Home/maracuja.jpg" alt="icone maracuja">
-                        <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
+                <DIV class="frutas-bg">
+                    <button class="arrow-left controlD" aria-label="Voltar Imagem"><img src="./Imagens/produtos/seta-esq.svg"></button>
+                    <button class="arrow-right controlD" aria-label="Avançar Imagem"><img src="./Imagens/produtos/seta-dir.svg"></button>
+                    
+                    <div class="frutas-rolagem">
+                        <div class="frutas">
+                            <div class="itemD current-itemD">
+                                <img src="./Imagens/produtos/morango.png" alt="morango">
+                                <div class="subtitulo-prod">
+                                    <p>morango - cartela</p>
+                                    <P>R$ 11,99</P>
+                                </div>
+                            </div>
+    
+                            <div class="itemD current-itemD">
+                                <img src="./Imagens/produtos/kiwi.png" alt="kiwi">
+                                <div class="subtitulo-prod">
+                                    <p>kiwi - 500 gr</p>
+                                    <P>R$ 12,99</P>
+                                </div>
+                            </div>
+    
+                            <div class="itemD current-itemD">
+                                <img src="./Imagens/produtos/caqui.png" alt="caqui">
+                                <div class="subtitulo-prod">
+                                    <p>caqui - 500 gr</p>
+                                    <P>R$ 07,99</P>
+                                </div>
+                            </div>
+    
+                            <div class="itemD">
+                                <img src="./Imagens/produtos/pera argentina.png" alt="Pera arg">
+                                <div class="subtitulo-prod">
+                                    <p>Pera arg - 500 gr</p>
+                                    <P>R$ 12,99</P>
+                                </div>
+                            </div>
+    
+                            <div class="itemD">
+                                <img src="./Imagens/produtos/uva.png" alt="uva verde">
+                                <div class="subtitulo-prod">
+                                    <p>uva verde - 500 gr</p>
+                                    <P>R$ 09,99</P>
+                                </div>
+                            </div>
+    
+                            <div class="itemD">
+                                <img src="./Imagens/produtos/ameixa.png" alt="ameixa">
+                                <div class="subtitulo-prod">
+                                    <p>ameixa - 500 gr</p>
+                                    <P>R$ 19,99</P>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="description">
-                        <span class="name">MARACUJÁ - 1kg</span>
-                        <span class="price">R$ 08,99</span>
-                    </div>
-                </div>
-
-                <div class="prod">
-                    <div class="cestinha-prod">
-                        <img class="fruit-uva" src="Imagens/Home/uva.jpg" alt="">
-                        <img class="cestinha-img" src="Imagens/Home/cesta-de-compras-pequena.png" alt="">
-                    </div>
-                    <div class="description">
-                        <span class="name">UVA VERDE C/ SEMENTE</span>
-                            <span class="price">R$ 05,99</span>
-                    </div>
-                </div>
+                </DIV>
             </div>
         </section>
-        <!--Frutas em Destaque-->
-    </main>
+<!--Frutas em Destaque-->
+
     </body>
 
     <footer>
@@ -258,7 +285,6 @@
             </div>
         </div><!--Roda-pé-->
     </footer>
-
+    <script src="JS/index.js"></script>
 </body>
-
 </html>

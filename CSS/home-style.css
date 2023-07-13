@@ -64,6 +64,12 @@ a {
 .btn-lg:hover {
     background: rgba(134, 192, 46, 0.9);
     cursor: pointer;
+    
+}
+
+.btn-lg:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .paragrafo {
@@ -79,7 +85,19 @@ a {
 .cards {
     gap: 30px;
     padding: 50px;
+
+    
 }
+
+
+.logos-card img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.logos-card:hover img {
+    transform: rotate(360deg);
+}
+
 
 .sobre-empresa {
     padding: 33px 25px;
@@ -98,6 +116,11 @@ a {
     align-items: center;
     border-radius: 3px;
     box-shadow: 0px 6px 8px #044D02;
+}
+
+.first-card:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .logos-card {
@@ -157,6 +180,11 @@ a {
     box-shadow: 0px 6px 8px #044D02;
 }
 
+.second-card:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
 
 .frete-gratis {
     text-align: center;
@@ -175,6 +203,11 @@ a {
     align-items: center;
     border-radius: 3px;
     box-shadow: 0px 6px 8px #044D02;
+}
+
+.third-card:hover:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
 }
 
 .cards {
@@ -263,106 +296,60 @@ a .click {
 
 /*Destaque*/
 
-.frutas {
+.frutas-destaque {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 9px;
-}
-
-.frutas-destaque {
-    width: 1185px;
-    height: 90px;
-    left: 130px;
-    top: 1309px;
-    background: #CDF68F;
+    background:#E4FBC1;
+    margin: 60px 120px;
+    border-radius: 0px 0px 8px 8px;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
 }
 
-.frutas-destacadas {
+.frutas-bg {
+    position: relative;
+    padding: 40px 60px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.frutas-rolagem {
+    overflow-x: auto;
+}
+
+/* Esconder scroll bar em diferentes navegadores*/
+.frutas-rolagem::-webkit-scrollbar {
+    display: none; /*Chrome*/
+  }
+.frutas-rolagem {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;/* Firefox*/
+}
+
+.title-frutas {
+    background: #CDF68F;
     color: #0B3F09;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.title-frutas h2 {
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
-    text-align: center;
-}
-
-.produtos {
-    background: #E4FBC1;
-    border-radius: 0px 0px 4px 4px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1183px;
-    height: 286px;
-    left: 132px;
-    top: 1399px;
-    border-radius: 0px 0px 4px 4px;
-    gap: 7rem;
-    margin-bottom: 40px;
-}
-
-.prod {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.prod img {
-    border-radius: 5px;
-    width: 258px;
-    height: 176px;
-}
-
-.cestinha-prod {
-    position: relative;
-}
-
-.cestinha-img {
-    position: absolute;
-    right: 1px;
-    bottom: 5px; 
-    max-width:30px;
-    max-height:30px;
-    width: auto;
-    height: auto;
-}
-
-.prod .name {
-    color: #0EB409;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    
-}
-
-.prod .price {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
     color: #0B3F09;
 }
 
-.description {
-    width: 100%;
+.frutas {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    min-height: 40px;
+    flex-flow: row nowrap;
+    gap: 40px;
 }
-
 @media screen and (max-width:768px){
     .container {
         display:block ;
@@ -381,3 +368,58 @@ a .click {
     margin: 0;
 }
 }
+.itemD img {
+    width: 250px;
+    height: 170px;
+    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.20);
+    margin-bottom: 4px;
+}
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  cursor: pointer;
+  border: none;
+  transition: all 600ms ease-in-out;
+  background: transparent;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: transparent;
+  }
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 1;
+}
+
+
+.subtitulo-prod {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtitulo-prod p:first-child {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(14, 180, 9, 0.95);
+    text-transform: uppercase;
+}
+
+.subtitulo-prod p:last-child {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: right;
+    color: #0B3F09;
+} 

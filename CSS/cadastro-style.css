@@ -27,7 +27,6 @@ a {
     }
     
 
-
 .titulo h1 {
     display: flex;
     padding: 20px;
@@ -134,7 +133,7 @@ a {
 }
 
 
-input {
+.form-control input {
     border: 2px solid;
     display: block;
     border-radius:5px;
