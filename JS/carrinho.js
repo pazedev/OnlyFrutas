@@ -5,7 +5,7 @@ function adicionarAoCarrinho(produtoId) {
   // Lógica para adicionar o produto ao carrinho
   let produto;
 
-  // Encontre o produto pelo ID (você pode substituir essa lógica com a lógica do seu sistema)
+  // Encontre o produto pelo ID 
   switch (produtoId) {
     case 1:
       produto = {
@@ -14,6 +14,7 @@ function adicionarAoCarrinho(produtoId) {
         preco: 2.99
       };
       break;
+      
     case 2:
       produto = {
         id: 2,
@@ -39,19 +40,29 @@ function adicionarAoCarrinho(produtoId) {
       return;
   }
 
-  function removerProduto(botao) {
-    // Obtém o elemento pai do botão (div.item)
-    let item = botao.parentNode;
-    
-    // Remove o elemento do carrinho
-    item.remove();
-  }
-
   carrinho.push(produto);
   total += produto.preco;
 
   atualizarCarrinho();
 }
+
+// Selecione todos os botões "Remover"
+const botoesRemover = document.querySelectorAll('.remover');
+
+// Adicione um ouvinte de eventos de clique a cada botão "Remover"
+botoesRemover.forEach(botao => {
+  botao.addEventListener('click', function() {
+    // Encontre o item pai (li) do botão Remover
+    const item = this.parentNode;
+
+    // Encontre o carrinho
+    const carrinho = document.getElementById('carrinho');
+
+    // Remova o item do carrinho
+    carrinho.removeChild(item);
+  });
+});
+
 
 function atualizarCarrinho() {
   const listaProdutos = document.getElementById('lista-produtos');
@@ -69,13 +80,7 @@ function atualizarCarrinho() {
 
 function fazerCheckout() {
   // Lógica para fazer o checkout
-  // Aqui você pode redirecionar o usuário para a página de checkout ou realizar outras ações, como enviar uma solicitação ao servidor para processar o pagamento
-  // Neste exemplo, apenas exibimos um alerta com a mensagem "Checkout realizado"
+
 
   alert('PEDIDO REALIZADO!Em breve você receberá um e-mail com todas as informações sobre o pagamento e entrega. Obrigado!!');
 }
-
-
-
-
-
