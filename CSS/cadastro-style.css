@@ -7,6 +7,17 @@ main {
     padding-bottom: 40px;
     
 }
+.usuario-img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
 
 .container1 {
     display: flex;
