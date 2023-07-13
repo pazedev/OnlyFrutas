@@ -16,7 +16,6 @@ main {
     }
     
 
-
 .titulo h1 {
     display: flex;
     padding: 20px;
@@ -123,7 +122,7 @@ main {
 }
 
 
-input {
+.form-control input {
     border: 2px solid;
     display: block;
     border-radius:5px;

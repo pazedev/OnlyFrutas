@@ -1,48 +1,36 @@
-// Selecionando os elementos do carousel
-const carouselContainers = document.querySelectorAll('.prod');
-const prevButtons = document.querySelectorAll('.prev-button');
-const nextButtons = document.querySelectorAll('.next-button');
+const controlsD = document.querySelectorAll(".controlD");
+let currentItemD = 0;
+const itemsD = document.querySelectorAll(".itemD");
+const maxItemsD = itemsD.length;
 
-// Função para alternar as imagens dentro de cada div do carousel
-function toggleCarouselImages(container, direction) {
-    const images = container.querySelectorAll('img');
-    let currentImageIndex = 0;
+controlsD.forEach((controlD) => {
+  controlD.addEventListener("click", (e) => {
+    isLeft = e.target.classList.contains("arrow-left");
 
-    setInterval(() => {
-        images[currentImageIndex].style.display = 'none';
+    if (isLeft) {
+      currentItemD -= 1;
+    } else {
+      currentItemD += 1;
+    }
 
-        if (direction === 'next') {
-            currentImageIndex = (currentImageIndex + 1) % images.length;
-        } else {
-            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
-        }
+    if (currentItemD >= maxItemsD) {
+      currentItemD = 0;
+    }
 
-        images[currentImageIndex].style.display = 'block';
-    }, 2000);
-}
+    if (currentItemD < 0) {
+      currentItemD = maxItemsD - 1;
+    }
 
-// Função para mover as imagens para a esquerda (prev)
-function moveImagesPrev(event) {
-    const container = event.currentTarget.parentElement.querySelector('.prod');
-    toggleCarouselImages(container, 'prev');
-}
+    itemsD.forEach((item) => item.classList.remove("current-itemD"));
 
-// Função para mover as imagens para a direita (next)
-function moveImagesNext(event) {
-    const container = event.currentTarget.parentElement.querySelector('.prod');
-    toggleCarouselImages(container, 'next');
-}
+    itemsD[currentItemD].scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest"
+    });
 
-// Adicionando os eventos de clique aos botões prev e next
-prevButtons.forEach((button) => {
-    button.addEventListener('click', moveImagesPrev);
+    itemsD[currentItemD].classList.add("current-itemD");
+  });
 });
 
-nextButtons.forEach((button) => {
-    button.addEventListener('click', moveImagesNext);
-});
-
-// Chamar a função para cada div do carousel
-carouselContainers.forEach((container) => {
-    toggleCarouselImages(container, 'next');
-});
+setInterval(e, 1000);
