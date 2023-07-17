@@ -295,6 +295,7 @@ a .click {
     flex-direction: column;
     gap: 9px;
     padding-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .frutas-destaque {
@@ -308,9 +309,11 @@ a .click {
     justify-content: center;
     align-items: center;
     border-radius: 4px;
+    margin-bottom: -4px;
+    z-index: 2;
 }
 
-/*.frutas-destacadas {
+.frutas-destacadas {
     color: #0B3F09;
     font-family: 'PT Serif';
     font-style: normal;
@@ -320,7 +323,7 @@ a .click {
     text-align: center;
 }
 
-.produtos {
+/*.produtos {
     background: #E4FBC1;
     border-radius: 0px 0px 4px 4px;
     display: flex;
@@ -405,7 +408,7 @@ a .click {
     position: absolute;
     text-align: center;
     line-height: 50px;
-    background: #0B3F09;
+    background: #679227;
     border-radius: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
     transform: translateY(-50%);
@@ -464,12 +467,12 @@ a .click {
     scroll-snap-align: start;
     height: 342px;
     list-style: none;
-    background: #CDF68F;
+    background: #E4FBC1;
     cursor: pointer;
     padding-bottom: 15px;
     flex-direction: column;
-    border-radius: 8px;
-    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 2px 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 .carousel .card .img {
