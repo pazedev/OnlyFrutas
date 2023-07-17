@@ -23,11 +23,6 @@
     justify-content: center;
     gap: 40px;
 }
-.usuario-img{
-    display: flex;
-    flex-direction: column;
-
-}
 
 .main-content-text h1 {
     width: fit-content;
@@ -54,7 +49,7 @@
 }
 
 .btn-lg:hover {
-    background: rgba(134, 192, 46, 0.9);
+    color: #044D02;
     cursor: pointer;
     
 }
@@ -206,6 +201,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
+}
+
+.cards h2:hover {
+    color: #CDF68F;
 }
 
 .entrega-the {
@@ -288,113 +288,227 @@ a .click {
 
 /*Destaque*/
 
-.frutas-destaque {
+.frutas {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background:#E4FBC1;
-    margin: 60px 120px;
-    border-radius: 0px 0px 8px 8px;
-    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+    gap: 9px;
+    padding-bottom: 20px;
 }
 
-.frutas-bg {
-    position: relative;
-    padding: 40px 60px;
-    max-width: 850px;
-    margin: 0 auto;
-}
-
-.frutas-rolagem {
-    overflow-x: auto;
-}
-
-/* Esconder scroll bar em diferentes navegadores*/
-.frutas-rolagem::-webkit-scrollbar {
-    display: none; /*Chrome*/
-  }
-.frutas-rolagem {
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none;/* Firefox*/
-}
-
-.title-frutas {
+.frutas-destaque {
+    width: 1095px;
+    height: 90px;
+    left: 130px;
+    top: 1309px;
     background: #CDF68F;
-    color: #0B3F09;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0px;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
 }
 
-.title-frutas h2 {
+/*.frutas-destacadas {
+    color: #0B3F09;
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
+    text-align: center;
+}
+
+.produtos {
+    background: #E4FBC1;
+    border-radius: 0px 0px 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1183px;
+    height: 286px;
+    left: 132px;
+    top: 1399px;
+    border-radius: 0px 0px 4px 4px;
+    gap: 7rem;
+    margin-bottom: 40px;
+}
+
+.prod {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.prod img {
+    border-radius: 5px;
+    width: 258px;
+    height: 176px;
+}
+
+.cestinha-prod {
+    position: relative;
+}
+
+.cestinha-img {
+    position: absolute;
+    right: 1px;
+    bottom: 5px; 
+    max-width:30px;
+    max-height:30px;
+    width: auto;
+    height: auto;
+}
+
+.prod .name {
+    color: #0EB409;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+}
+
+.prod .price {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
     color: #0B3F09;
 }
 
-.frutas {
+.description {
+    width: 100%;
     display: flex;
-    flex-flow: row nowrap;
-    gap: 40px;
-}
-
-.itemD img {
-    width: 250px;
-    height: 170px;
-    box-shadow: 0px 4px 2px 0px rgba(0, 0, 0, 0.20);
-    margin-bottom: 4px;
-}
-
-.arrow-left,
-.arrow-right {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: auto;
-  bottom: 0;
-  cursor: pointer;
-  border: none;
-  transition: all 600ms ease-in-out;
-  background: transparent;
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.arrow-right {
-    right: 0;
-    left: auto;
-    text-align: right;
-    background: transparent;
-  }
-
-.arrow-left:hover,
-.arrow-right:hover {
-  opacity: 1;
-}
-
-
-.subtitulo-prod {
-    display: flex;
+    align-items: center;
     justify-content: space-between;
+    min-height: 40px;
+} */
+
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    position: relative;
 }
 
-.subtitulo-prod p:first-child {
-    font-family: 'Roboto';
+.wrapper i {
+    top: 50%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 1.25rem;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+    background: #0B3F09;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: translateY(-50%);
+    transition: transform 0.1s linear;
+}
+
+.wrapper i:active {
+    transform: translateY(-50%) scale(0.85);
+}
+
+.wrapper i:first-child {
+    left: -22px;
+}
+
+.wrapper i:last-child {
+    right: -22px;
+}
+
+.wrapper .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% / 3) - 12px);
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 16px;
+    border-radius: 8px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel.no-transition {
+    scroll-behavior: auto;
+}
+
+.carousel.dragging {
+    scroll-snap-type: none;
+    scroll-behavior: auto;
+}
+
+.carousel.dragging .card {
+    cursor: grab;
+    user-select: none;
+}
+
+.carousel :where(.card, .img) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .card {
+    scroll-snap-align: start;
+    height: 342px;
+    list-style: none;
+    background: #CDF68F;
+    cursor: pointer;
+    padding-bottom: 15px;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 1px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.carousel .card .img {
+    background: #679227; 
+    height: 148px;
+    width: 148px;
+    border-radius: 50%;
+}
+
+.card .img img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0B3F09;
+    box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.2);
+}
+
+.carousel .card h2 {
     font-weight: 500;
-    font-size: 16px;
-    color: rgba(14, 180, 9, 0.95);
-    text-transform: uppercase;
+    font-size: 1.56rem;
+    margin: 30px 0 5px;
+    color: #0EB409;
 }
 
-.subtitulo-prod p:last-child {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 16px;
-    text-align: right;
+.carousel .card span {
     color: #0B3F09;
-} 
+    font-size: 1.31rem;
+}
+
+/* Adiconando a responsividade */
+@media screen and (max-width: 900px) {
+    .wrapper .carousel {
+        grid-auto-columns: calc((100% / 2) - 9px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper .carousel {
+        grid-auto-columns: 100%;
+    }
+}
