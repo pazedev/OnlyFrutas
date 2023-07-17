@@ -495,6 +495,7 @@ a .click {
     font-size: 1.31rem;
 }
 
+/* Adiconando a responsividade */
 @media screen and (max-width: 900px) {
     .wrapper .carousel {
         grid-auto-columns: calc((100% / 2) - 9px);
