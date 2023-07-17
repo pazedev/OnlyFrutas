@@ -9,6 +9,7 @@ const name = document.querySelector('#username')
 const sobreNome = document.querySelector('#name')
 const data = document.querySelector('#diaa')
 const tel = document.querySelector('#telefone')
+const cep = document.querySelector('#cep')
 const email = document.querySelector('#email')
 const senha = document.querySelector('#password')
 const confSenha = document.querySelector('#password-confirmation')
@@ -98,7 +99,7 @@ confSenha.addEventListener('input', function (event)  {
 
 
 
-
+              
 
 
 

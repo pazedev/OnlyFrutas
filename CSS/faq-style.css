@@ -60,7 +60,6 @@ h2 {
 
 .faq-pergunta {
     position: relative;
-    margin-bottom: -10px;
     margin-left: 8px;
 }
 
@@ -86,7 +85,7 @@ h2 {
 }
 
 .faq-resposta {
-    padding: 0 24px;
+    padding: 0px 24px;
     color: #E4FBC1;
     background: #fdfffc;
     max-height: 0;
@@ -98,6 +97,7 @@ h2 {
   .faq-resposta.active {
     opacity: 1;
     transform: translateY(0);
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-top: 0px;
+    background: transparent;
+    padding-bottom: 50px;
   }

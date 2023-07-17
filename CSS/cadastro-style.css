@@ -7,6 +7,17 @@ main {
     padding-bottom: 40px;
     
 }
+.usuario-img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
 
 .container1 {
     display: flex;
@@ -15,7 +26,6 @@ main {
     flex-direction: column;
     }
     
-
 
 .titulo h1 {
     display: flex;
@@ -123,7 +133,7 @@ main {
 }
 
 
-input {
+.form-control input {
     border: 2px solid;
     display: block;
     border-radius:5px;
