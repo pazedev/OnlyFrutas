@@ -3,18 +3,18 @@ const button= document.querySelector('#button')
     button.querySelector('click', (e) =>  {
     Event.preventDefault()
     })
-const email = document.querySelector('#email')
+const usuario = document.querySelector('#usuario')
 const senha = document.querySelector('#password')
-console.log(email)
-email.addEventListener('input', function  (event) {
+console.log(usuario)
+usuario.addEventListener('input', function  (event) {
    const value = event.target.value
    console.log(value)
 
    
    if(value.length<2 || (!value.includes('@') || !value.includes('.'))){
-     email.classList.add('errorInput')
+     usuario.classList.add('errorInput')
 
-   }else {email.classList.remove('errorInput')
+   }else {usuario.classList.remove('errorInput')
     } 
 
 

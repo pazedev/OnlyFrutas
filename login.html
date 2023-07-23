@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/login-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="./JS/login-script.js" defer></script>
 
     <title>Login</title>
@@ -55,33 +56,65 @@
         <!--Fim Menu-->
     </header>
     <main class="login-lg">
-        <form class="formulario">
+        
+        <div class="caixa">
+        
+            <div class="frase">
+                <h3 ><img src="Imagens/Home/“.png" alt="">É um privilégio te-lo de volta em nossa loja,<br>
+                 não temos palavras para agradecer a preferência<br> e confiança depositada por você em nosso trabalho!
+                 <img src="Imagens/Home/“ (1).png" alt="">
+            </h3>
+            </div>
+            
+            <form class="formulario">
             <div class="titulo">
                 <h2>Login</h2>
+            </div>
+            <div class="icones_sociais">
+                <a href="" class="social-icon" >
+                    <i class="fa fa-twitter"></i>
+                </a><br>
+
+                <a href="" class="social-icon">
+                    <i class="fa fa-facebook" ></i>
+                </a><br>
+                
+                <a href="" class="social-icon">
+                    <i class= "fa fa-google" ></i>
+                </a><br>
+                <a href="" class="social-icon">
+                    <i class= "fa fa-linkedin" ></i>
+                </a><br>
+                <a href="" class="social-icon">
+                    <i class="fa fa-instagram"></i>
+                </a><br>
             </div>
 
             <form action="mailto:onlyfrutas@gmail.com.br" method="post" enctype="text/plain">
                 
                 <div class="email">
-                    <label for="email">Email*</label><br>
-                    <input type="email" id="email" placeholder="Digite seu e-mail " required >
+                    <label for="email">Usuario*</label><br>
+                    <input type="email" id="usuario" placeholder="Digite seu email " required >
                 </div><br>
 
                 <div class="senha">
                     <label for="password">Senha*</label><br>
                     <input type="password"  id="password" placeholder="Digite sua senha" required maxlength="8">
                 </div><br>
-                
-                <span> <a href="#">Esqueci minha senha</a></span>
-                
-            
-                <button type="submit" id="button">Login</button><br>
 
-                <span>Não tem uma conta? <a href="./cadastro.html">Clique aqui</a></span>
+                <div >
+                <a href="#"class="esqueci">Esqueci minha senha</a>
+                </div>
                 
+                <button type="submit" id="button">Login</button><br>
+                
+                <div class="span">
+                Não tem uma conta? <a class="clique_aqui" href="./cadastro.html"> Clique aqui</a>
+                </div>
 
             </form>
         </div>
+    </div>
         
     </main>
 
