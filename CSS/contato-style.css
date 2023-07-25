@@ -1,12 +1,13 @@
 @import url('./global-style.css');
-.main-ctt{
+
+.main-ctt {
     display: flex;
     color: #0D8509;
     justify-content: space-between;
-   
- }
-.container-ctt h1{
-    text-align-last: center;   
+}
+
+.container-ctt h1 {
+    text-align-last: center;
     margin: 60px;
     font-family: 'PT Serif';
     font-style: normal;
@@ -17,7 +18,7 @@
 
 }
 
-.img-lg-paragrafo{
+.img-lg-paragrafo {
     display: flex;
     background-color: #E4FBC1;
     align-items: center;
@@ -27,9 +28,8 @@
     margin-right: 30px;
     width: 500px;
     padding: 30px 45px;
-    box-shadow:0 2px 5px rgba(rgb(10, 3, 3)); 
+    box-shadow: 0 2px 5px rgba(rgb(10, 3, 3));
     border-radius: 5px;
-   
 }
 
 
@@ -41,23 +41,24 @@ a {
 
 /*botão que vai levar o usuario para pagina FAQ*/
 
-.botao1{
+.botao1 {
     background-color: #86C02E;
     align-items: center;
     padding: 12px;
     border-radius: 10px;
-   
+
 }
 
-.botao1:hover{
+.botao1:hover {
     background: rgba(134, 192, 46, 0.9);
     padding: 12px;
     border: 2px solid #86C02E;
 
 }
+
 /*formulário*/
 
-.form-ctt{
+.form-ctt {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -67,7 +68,7 @@ a {
     border-radius: 5px;
     padding: 30px 45px;
 
-    
+
 }
 
 
@@ -75,8 +76,9 @@ a {
     display: flex;
     flex-direction: row;
     margin-left: 16px;
-    
+
 }
+
 .img-paragrafo p {
     display: flex;
     margin-left: 17px;
@@ -89,16 +91,17 @@ a {
     margin: 30px;
     flex-direction: column;
     width: 500px;
-   
-    
+
+
 }
+
 .informs {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-left: -30px;
     padding: 30px;
-    
+
 }
 
 
@@ -109,7 +112,7 @@ a {
     width: 200px;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    
+
 
 }
 
@@ -120,11 +123,11 @@ a {
     width: 450px;
     box-shadow: 1px 1px 1 0px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    
-   
+
+
 }
 
- button {
+button {
     background: #86C02E;
     border: #86C02E;
     color: #ebeceb;
@@ -136,9 +139,10 @@ a {
     margin-left: 270px;
 
 
-    
+
 }
- button:hover {
+
+button:hover {
     background: rgba(134, 192, 46, 0.9);
     padding: 12px;
     border: 2px solid #86C02E;
@@ -147,7 +151,7 @@ a {
 
 /*Iformações de contato*/
 
-.container2{
+.container2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -155,9 +159,9 @@ a {
     margin-right: 30;
 }
 
-.inform{
-    position: relative;top:-153px
-
+.inform {
+    position: relative;
+    top: -153px
 }
 
 .contato-fundo {
@@ -167,11 +171,11 @@ a {
     width: 450px;
     height: 400px;
     text-align: center;
-    align-items:center ;
-    
+    align-items: center;
+
 }
 
-.local{
+.local {
     display: flex;
     text-align: left;
     flex-direction: column;
@@ -186,20 +190,22 @@ a {
     color: #000;
 }
 
-.contato{
+.contato {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     gap: 0px 80px;
 }
 
-.email, .whats{
+.email,
+.whats {
     display: flex;
     text-align: left;
     flex-direction: column;
 }
 
-.email p, .whats p {
+.email p,
+.whats p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -208,12 +214,13 @@ a {
 }
 
 .description {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1rem;
-        min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    min-height: 50px;
 }
+
 .errorInput {
     border: 2px solid #e12a0a !important;
-} 
+}

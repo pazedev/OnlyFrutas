@@ -5,8 +5,9 @@
     background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
     height: 500px;
     position: relative;
-    
+
 }
+
 .caixa {
     display: flex;
     padding: 50px;
@@ -14,7 +15,7 @@
     margin-right: 45px;
     flex-direction: row;
     justify-content: space-between;
-    
+
 }
 
 .frase h3 {
@@ -29,13 +30,14 @@
     backdrop-filter: blur(12px);
     text-shadow: #010d01 0.9px 0.8px;
     border-color: 2px solid #0D8509;
-   
+
 }
+
 .frase h3 img {
-   width: 25px;
-   padding:20px;
+    width: 25px;
+    padding: 20px;
 }
-    
+
 
 a {
     display: flex;
@@ -52,12 +54,13 @@ a {
     height: 350px;
     width: 300px;
     padding: 25px;
-    border-radius: 20px ;
+    border-radius: 20px;
     background: #e4fbc1;
     align-items: center;
-    
-   
+
+
 }
+
 /*Titulo login*/
 .titulo {
     text-align: center;
@@ -67,56 +70,59 @@ a {
 
 /*Icons redes sociais*/
 .icones_sociais {
-display: flex;
-padding: 20px;
-gap: 15px;
+    display: flex;
+    padding: 20px;
+    gap: 15px;
 
 }
 
 
-
-
-.formulario label {
-    
+.fa {
     color: #0D8509;
 }
-.formulario input{
+
+.formulario label {
+
+    color: #0D8509;
+}
+
+.formulario input {
     color: #0D8509;
     background: #f9fdf4;
     width: 180px;
     padding: 10px;
     border-radius: 10px;
 }
+
 /*links de esqueci senha e cadastre-se*/
 
 .formulario .span {
     display: flex;
     gap: 10px;
     color: #0D8509
-    
-
 }
 
 .clique_aqui {
     color: #4d7d04;
-   
+
     text-align: center;
 }
 
 .esqueci {
     color: #0D8509;
-    
+
     text-align: center;
 }
 
 /*inserir animação no botão*/
-.esqueci:hover, .clique_aqui:hover {
+.esqueci:hover,
+.clique_aqui:hover {
     color: hsl(252, 100%, 55%);
 }
 
 
 /*botão do login*/
- button {
+button {
 
     padding: 6px;
     color: #f9fdf4;
@@ -127,6 +133,7 @@ gap: 15px;
     margin: 10px 10px;
     border: 2px solid #86C02E;
 }
+
 button:hover {
     background: rgba(134, 192, 46, 0.9);
     padding: 8px;
