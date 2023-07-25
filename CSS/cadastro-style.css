@@ -152,6 +152,20 @@ a {
 
 .errorInput {
     border: 2px solid #e12a0a !important;
+    
+}
+
+.ocultar {
+    display: none;
+    
+
+}
+.conferi_senha {
+    color: #e12a0a;
+    text-shadow: #010d01 0.9px 0.9px;
+    font-size: 15px;
+    display: block;
+
 }
 
 
