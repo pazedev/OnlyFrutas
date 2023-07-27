@@ -44,8 +44,33 @@ input {
     }
 }
 
+/*ICONES */
+
 #iconsLaterais {
     width: 50px;
+}
+
+.usuario {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.span-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.usuario a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: #044D02;
+    font-size: 15px;
 }
 
 /*MENU*/

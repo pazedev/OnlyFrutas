@@ -13,29 +13,30 @@
     padding: 50px;
     margin-left: -15px;
     margin-right: 45px;
+    margin-bottom: 20px;
     flex-direction: row;
     justify-content: space-between;
 
 }
 
 .frase h3 {
-    font-size: 25px;
-    color: #b9fc54;
+    font-size: 24px;
+    color: #E4FBC1;
     text-align: center;
     margin: 15%;
-    width: 600px;
-    height: 150px;
-    padding: 20px;
+    padding: 32px;
     border-radius: 20px;
-    backdrop-filter: blur(12px);
+    background-color: #0D8509;
     text-shadow: #010d01 0.9px 0.8px;
     border-color: 2px solid #0D8509;
 
 }
 
 .frase h3 img {
-    width: 25px;
+    width: 30px;
     padding: 20px;
+    margin: 0px;
+    padding: 4px;
 }
 
 
