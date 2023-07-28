@@ -3,20 +3,15 @@
 
 .login-lg {
     background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
-    height: 500px;
-    position: relative;
-
-}
+    background-size: cover;
+ }
 
 .caixa {
     display: flex;
-    padding: 50px;
-    margin-left: -15px;
-    margin-right: 45px;
-    margin-bottom: 20px;
     flex-direction: row;
     justify-content: space-between;
-
+    align-items: center;
+    margin: 0px 80px;
 }
 
 .frase h3 {
@@ -50,16 +45,12 @@ a {
 
 .formulario {
     display: flex;
-    position: relative;
     flex-direction: column;
-    height: 350px;
-    width: 300px;
-    padding: 25px;
+    padding: 30px 60px;
     border-radius: 20px;
     background: #e4fbc1;
     align-items: center;
-
-
+    margin: 40px 40px 40px 0px;
 }
 
 /*Titulo login*/
