@@ -1,0 +1,189 @@
+@import url('./global-style.css');
+
+main {
+    background: #86C02E;
+    color: #F0FEDC;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.usuario-img {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    
+
+.titulo h1 {
+    display: flex;
+    padding: 20px;
+    margin-top: 40px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+}
+.container1 p {
+    background:#0d8509;
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 17px;
+   
+   
+}
+
+/*caixa principal*/
+
+.container2 {
+    display: flex;
+    background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
+    width: 50%;
+    border-radius: 20px;
+    color: #0d8509;
+    margin: 20px 40px;
+    padding: 60px 60px;
+    justify-content: center;
+}
+
+
+/*Formulario*/
+
+
+.form{
+    display: flex;
+    padding: 20px;
+    margin: 20px 40px;
+    border-radius: 20PX;
+    background-color: #E4FBC1;
+}
+
+.formulario h3 {
+    display: flex;
+    background: #86C02E;
+    color: #f9fdf4;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    text-align: center;
+    }
+
+.formulario {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
+}
+
+.form1 {
+    display: flex;
+}
+
+.form2 {
+    display: flex;
+    
+    height: 60px;
+}
+
+.form3 {
+    display: flex;
+    height: 60px;
+  
+}
+
+.form4{
+    display: flex;
+    height: 60px;
+}
+
+.form-control{
+    padding: 10px;
+}
+.form-control label{
+    text-shadow: #010d01 0.8px 0.8px ;
+    font-weight: bold;
+    font-size: medium;
+}
+
+
+.form-control input {
+    border: 2px solid;
+    display: block;
+    border-radius:5px;
+    font-size: 14 px;
+    width: 200px;
+    padding: 5px;
+    background:#f9fdf4;
+    border: #e4fbc1;
+    color: #0d8509;
+    
+    font-size: 17px;
+    flex-direction: row;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.errorInput {
+    border: 2px solid #e12a0a !important;
+    
+}
+
+.ocultar {
+    display: none;
+    
+
+}
+.conferi_senha {
+    color: #e12a0a;
+    text-shadow: #010d01 0.9px 0.9px;
+    font-size: 15px;
+    display: block;
+
+}
+
+
+
+
+
+/*Botao do formulario de cadastro*/
+
+button {
+    margin-top: 30px;
+    background: #86C02E;
+    border: #86C02E;
+    color: #f9fdf4;
+    font-size: 17px;
+    width: 35%;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+    margin-left: 223px;
+    position: relative;
+}
+
+
+button:hover{
+    background: rgba(134, 192, 46, 0.9);
+    padding: 10px;
+    border: 2px solid #86C02E;
+}

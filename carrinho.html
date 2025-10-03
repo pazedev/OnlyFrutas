@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Carrinho de Compras</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/carrinho.css" />
+  </head>
+  <body>
+    <header>
+      <!--Topo-->
+      <div class="content">
+        <a href="./index.html"
+          ><img class="initial-logo" src="/imagens/Home/Vector.png" alt=""
+        /></a>
+        <form>
+          <label form="txtBusca" class="search">
+            <input
+              type="text"
+              id="txtBusca"
+              placeholder="Digite aqui o que procura..."
+            />
+            <img src="/imagens/Home/PESQUISA.svg" alt="" />
+          </label>
+        </form>
+
+        <div class="cesta">
+          <a href="carrinho.html"
+            ><img src="/imagens/cestinha.png" id="iconsLaterais" alt="cestinha"
+          /></a>
+        </div>
+
+        <div class="usuario">
+          <a href="/cadastro.html"
+            ><img src="/imagens/usuario.png" id="iconsLaterais" alt="usuario" />
+          </a>
+
+          <div class="span-us">
+            <span><a href="login.html">Login</a></span>
+            <span><a href="cadastro.html">Criar conta</a></span>
+          </div>
+        </div>
+      </div>
+      <!--Fim Topo-->
+
+      <!--Menu-->
+      <nav class="nav-bg">
+        <ul class="nav-bar">
+          <li>
+            <a class="link-nav" href="./index.html">HOME</a>
+          </li>
+          <li>
+            <a class="link-nav" href="./produtos.html">PRODUTOS</a>
+          </li>
+          <li>
+            <a class="link-nav" href="./quemsomos.html">QUEM SOMOS</a>
+          </li>
+          <li>
+            <a class="link-nav" href="./faq.html">FAQ</a>
+          </li>
+          <li>
+            <a class="link-nav" href="./contato.html">CONTATO</a>
+          </li>
+        </ul>
+      </nav>
+      <!--Fim Menu-->
+    </header>
+    <main>
+      <h1>Meu Carrinho de Compras</h1>
+
+      <div class="produtos">
+        <div class="produto">
+          <img src="./imagens/produtos/melancia.png" alt="Melancia" />
+          <h3>Melancia 1KG</h3>
+          <br />
+          <p>Preço: R$ 2.99</p>
+          <br />
+          <button onclick="adicionarAoCarrinho(1)">
+            Adicionar ao Carrinho
+          </button>
+          <br />
+          <button onclick="removerDoCarrinho(1)">Remover</button>
+        </div>
+
+        <div class="produto">
+          <img src="./imagens/produtos/goiaba.png" alt="goiaba" />
+          <h3>GOIABA 1KG</h3>
+          <br />
+          <p>Preço: R$ 6.99</p>
+          <br />
+          <button onclick="adicionarAoCarrinho(2)">
+            Adicionar ao Carrinho
+          </button>
+          <br />
+          <button onclick="removerDoCarrinho(2)">Remover</button>
+        </div>
+        <div class="produto">
+          <img src="./imagens/produtos/banana.png" alt="banana" />
+          <h3>Banana Prata 1KG</h3>
+          <br />
+          <p>Preço: R$ 5.99</p>
+          <br />
+          <button onclick="adicionarAoCarrinho(3)">
+            Adicionar ao Carrinho
+          </button>
+          <br />
+          <button class="remover">Remover</button>
+        </div>
+
+        <div class="produto">
+          <img
+            src="./imagens/produtos/abacaxi.jpg"
+            alt="abacaxi"
+            width="300px"
+          />
+          <h3>Abacaxi 1kg</h3>
+          <br />
+          <p>Preço: R$ 6.99</p>
+          <br />
+          <button onclick="adicionarAoCarrinho(4)">
+            Adicionar ao Carrinho
+          </button>
+          <br />
+          <button onclick="removerDoCarrinho(4)">Remover</button>
+        </div>
+      </div>
+
+      <div id="carrinho">
+        <ul id="lista-produtos"></ul>
+
+        <p id="total">Total: R$ 0.00</p>
+        <button onclick="fazerCheckout()">
+          <strong>Finalizar Pedido</strong>
+        </button>
+      </div>
+
+      <script src="/JS/carrinho.js"></script>
+    </main>
+  </body>
+</html>

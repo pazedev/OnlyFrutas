@@ -1,0 +1,138 @@
+@import url('./global-style.css');
+
+
+.login-lg {
+    background: url('/Imagens/quem-somos/fundo-quem-somos.png') no-repeat;
+    background-size: cover;
+ }
+
+.caixa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+}
+
+.frase h3 {
+    font-size: 24px;
+    color: #E4FBC1;
+    text-align: center;
+    margin: 15%;
+    padding: 32px;
+    border-radius: 20px;
+    background-color: #0D8509;
+    text-shadow: #010d01 0.9px 0.8px;
+    border-color: 2px solid #0D8509;
+
+}
+
+.frase h3 img {
+    width: 30px;
+    padding: 20px;
+    margin: 0px;
+    padding: 4px;
+}
+
+
+a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+/*caixa principal do formulario*/
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 60px;
+    border-radius: 20px;
+    background: #e4fbc1;
+    align-items: center;
+    margin: 40px 40px 40px 0px;
+}
+
+/*Titulo login*/
+.titulo {
+    text-align: center;
+    color: #0D8509;
+    font-size: 25px;
+}
+
+/*Icons redes sociais*/
+.icones_sociais {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+
+}
+
+
+.fa {
+    color: #0D8509;
+}
+
+.formulario label {
+
+    color: #0D8509;
+}
+
+.formulario input {
+    color: #0D8509;
+    background: #f9fdf4;
+    width: 180px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/*links de esqueci senha e cadastre-se*/
+
+.formulario .span {
+    display: flex;
+    gap: 10px;
+    color: #0D8509
+}
+
+.clique_aqui {
+    color: #4d7d04;
+
+    text-align: center;
+}
+
+.esqueci {
+    color: #0D8509;
+
+    text-align: center;
+}
+
+/*inserir animação no botão*/
+.esqueci:hover,
+.clique_aqui:hover {
+    color: hsl(252, 100%, 55%);
+}
+
+
+/*botão do login*/
+button {
+
+    padding: 6px;
+    color: #f9fdf4;
+    background: #86C02E;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+    border: 2px solid #86C02E;
+}
+
+button:hover {
+    background: rgba(134, 192, 46, 0.9);
+    padding: 8px;
+    border: 2px solid #86C02E;
+}
+
+
+.errorInput {
+    border: 2px solid #e12a0a !important;
+}
